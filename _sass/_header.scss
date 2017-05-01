@@ -1,0 +1,85 @@
+.top-header {
+  background-color: $at-white;
+  min-height: 36px;
+  width: 100%;
+  overflow:hidden;
+  text-align: left;
+
+  .wrapper {
+    .at-logo {
+      display: block;
+      text-indent: -9999px;
+      width: 200px;
+      background: url(../images/autotrader.svg) no-repeat center;
+      background-size: 100%;
+      text-align: left;
+    }
+
+    @include media-query($on-palm) {
+      display: none
+    }
+  }
+
+   span {
+    color: $at-gray-darkest;
+     display: none;
+  }
+}
+
+.site-nav {
+  @include bg-gradient-t2b($at-blue-grad-light, $at-blue);
+  display:block;
+  width: 100%;
+  text-align:left;
+  svg {
+    color: $at-white;
+  }
+
+  .at-logo {
+      text-align:left;
+    text-indent: -9999px;
+
+    @include media-query($on-palm) {
+      position: absolute;
+      display: block;
+      text-indent: -9999px;
+      background: url(../images/autotrader-white.svg) no-repeat center;
+      background-size: 140px;
+
+      width: 90%;
+      padding-top: 10px;
+      height: 10px;
+    }
+  }
+
+
+  .wrapper {
+    .page-link {
+      display: inline-block;
+      text-decoration: none;
+      padding: 7px 5px;
+      &:hover {
+        background-color: $at-blue-dark;
+        cursor: pointer;
+      }
+    }
+
+
+    @include media-query($on-palm) {
+      padding: 0;
+
+      .page-link {
+        width: 100%;
+        padding: 4px 0 0;
+      }
+
+    }
+
+  }
+}
+
+
+
+
+
+

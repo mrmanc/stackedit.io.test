@@ -1,0 +1,68 @@
+//---Base Colors --
+
+//Black
+$at-black: 			    #333;
+
+$at-darkest: 			#00192d;
+
+//White
+$at-white:	            #fff;
+
+$at-transparent:        transparentize($at-white, 1);
+
+
+//Blue
+$at-blue-lightest: 	    #f3fafd;
+$at-blue-lighter: 		#d1e7f9;
+$at-blue-light: 		#1899db;
+$at-blue: 				#267ec8;
+$at-blue-dark: 			#0b5ba1;
+$at-blue-darker: 		#024073;
+$at-blue-darkest: 		#02233f;
+//
+$at-blue-grad-light:	#1899db;
+$at-blue-grad-dark:		#024073;
+
+//Green
+$at-green-lightest: 	#e6f8e7;
+$at-green-lighter: 		#cef2cf;
+$at-green-light: 		#01bb05;
+$at-green:	 			#00a504;
+$at-green-dark: 		#008002;
+//
+$at-green-grad-light:	#cef2cf;
+$at-green-grad-dark:	#007303;
+
+//Red
+$at-red-lightest: 		#fff0f0;
+$at-red-lighter: 		#fbc4c5;
+$at-red-light: 			#f22727;
+$at-red: 				#d72525;
+$at-red-dark: 			#c40606;
+$at-red-darker: 		#b30b0b;
+
+//
+$at-red-grad-light:		#fbc4c5;
+$at-red-grad-dark:		#c40606;
+
+//Gray
+$at-gray-lightest: 		#F8F8F8;
+$at-gray-light: 		#f2f4f5;
+$at-gray: 				#edf1f5;
+$at-gray-dark: 			#dee4e9;
+$at-gray-darker: 		#c7ccd1;
+$at-gray-darkest: 		#b7c0c7;
+//
+$at-gray-grad-light:	#FDFDFD;
+$at-gray-grad-dark:		#E0E0E0;
+
+//Yellow
+$at-yellow-lighter: 	#fdfda7;
+$at-yellow-light: 		#fffa37;
+$at-yellow: 			#ffe600;
+$at-yellow-dark: 		#ffd200;
+$at-yellow-darkest: 	#e6bd00;  //Needs reviewing
+
+//
+$at-yellow-grad-light:	#fdfda7;
+$at-yellow-grad-dark:	#ffd200;
