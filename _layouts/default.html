@@ -3,6 +3,28 @@
 <!-- "{{ site.github.url }}" -->
   {% include head.html %}
 
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@autotrader_uk">
+    <meta name="twitter:creator" content="@autotrader_uk">
+    {% if page.title %}
+    <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+    <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+    <meta name="twitter:url" content="{{ site.github.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+    <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+    <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+    <meta name="twitter:image:src" content="{{ site.github.url }}/images/{{ page.image }}">
+    {% else %}
+    <meta name="twitter:image:src" content="{{ site.github.url }}/images/logo.png">
+    {% endif %}
+
   <body>
 
     {% include header.html %}

@@ -81,6 +81,18 @@
     }
 }
 
+//== utilities
+
+.u-p-10 {
+  padding: 10px;
+}
+
+.u-center-img {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
 
 
 /**
@@ -232,6 +244,9 @@ footer {
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    .social-share {
+      float: right;
+    }
 }
 
 .post-title {
