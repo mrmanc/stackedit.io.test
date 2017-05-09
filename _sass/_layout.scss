@@ -175,7 +175,10 @@ footer {
     width: 100%;
     background-color: $at-blue;
 
-
+    a {
+        color: white;
+        text-decoration: underline;
+    }
 
    .copyright-base-inner {
         width: 100%;
