@@ -3,7 +3,6 @@ layout: post
 title:  "Using syntax trees for text mining"
 date:   2017-03-30
 author: "Amy O' Leary, Thomas Inman, Tom Collingburn"
-excerpt: "The second installment in our quest to discover more about what our customers are telling us." 
 ---
 
 [So far]({{ site.github.url }}{% post_url 2017-03-29-text-mining-one %}), machine learning techniques such as data cleansing, frequency mapping and clustering have allowed us to peek at the topics behind a huge quantity of calls from our customers. We’ve been able to show statistics on what our customers think from unsupervised learning. But what if we could employ a deeper understanding of the meaning of the text itself in our text mining?
