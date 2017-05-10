@@ -86,9 +86,9 @@ The response we wanted from Alexa was something like "today, you have 10 unread 
         }, function(req, res) {
             //get the slot
             var time = req.slot('time', 'today');
-            var reprompt = 'I didn\'t here that';
+            var reprompt = 'I didn\'t hear that';
             if (_.isEmpty(time)) {
-               var prompt = 'I didn\'t hear any information, please specifiy a type of information you would like';
+               var prompt = 'I didn\'t hear any information, please specify a type of information you would like';
                res.say(prompt).reprompt(reprompt).shouldEndSession(true);
                return false;
             } else {
