@@ -3,7 +3,7 @@ layout: post
 title:  "Monitorama Portland Conference"
 author: Mark Crossfield
 ---
-Four of us were lucky enough recently to visit Portland Oregon to attend Monitorama, a conference geared towards (mostly) Open Source monitoring and related topics. This post is about what our key takeaways were, and what new themes we observed. I had previously attended an as yet unrepeated Monitorama EU in Berlin in 2013 and had found it to be a wonderfully inspiring set of talks.
+Four of us were lucky enough recently to visit Portland Oregon to attend Monitorama, a conference geared towards (mostly) Open Source monitoring and related topics. This post is about what our key takeaways were, and the new themes we observed. I had previously attended an as yet unrepeated Monitorama EU in Berlin in 2013 and had found it to be a wonderfully inspiring set of talks.
 
 ![Monitorama Banner]({{ site.github.url }}/images/2017-06-20/monitorama-banner.jpg)
 
@@ -19,18 +19,18 @@ This works really well for me, as I suffer [FOMO](https://en.wikipedia.org/wiki/
 
 ### Interesting Attendees
 
-The audience of Monitorama feels more like a family than other conferences I’ve been to (except perhaps DevOpsDays). The fact I chatted to three people I recognised and had chatted to in Berlin in 2013 five thousand miles away shows that the audience is loyal. There are a lot of people attending whose day job is monitoring as a supplier, rather than just being made up of consumers. That means you can have some really smart conversations with people. It’s also one of the most diverse sets of attendees I’ve seen, and the organisers set themselves a target to improve this years above average 27% women speaker share to 50% next year. A lot of this feels like an outcome of the fact that the conference has grown organically, not commercially.
+The audience of Monitorama feels more like a family than other conferences I’ve been to (except perhaps DevOpsDays). The fact I chatted to three people I met in Berlin four years ago and 5000 miles away shows the audience is loyal. There are a lot of people attending whose day job is monitoring as a supplier, rather than just being made up of consumers. That means you can have some really smart conversations with people. It’s also one of the most diverse sets of attendees I’ve seen and the organisers have set themselves a target to improve this year's above average 27% women speaker share to 50% next year. A lot of this feels like an outcome of the fact that the conference has grown organically, not commercially.
 
 ### Great UX
 
-The organisers pride themselves on the experience of attending the conference. So I wasn’t surprised that there were some great bars, great restaurants/diners/food-carts/coffee-shops within a five-minute walk from the venue. The venue itself was a great location for a conference, and we felt well looked after. The sponsor stands were unobtrusive and we had some really interesting conversations with the vendors. Their pitches were spread across the schedule explicitly in pairs of five-minute talks so they didn’t merge into one and didn’t overshadow the rest of the talks.
+The organisers pride themselves on the experience of attending the conference. So I wasn’t surprised that there were some great bars/restaurants/diners/food-carts/coffee-shops within a five-minute walk from the venue. The venue itself was a great location for a conference, and we felt well looked after. The sponsor stands were unobtrusive and we had some really interesting conversations with the vendors. Their pitches were spread across the schedule explicitly in pairs of five-minute talks so they didn’t merge into one and didn’t overshadow the rest of the talks.
 
 Caring so much about the experience of the location and venue is part of the reason why the European variant hasn’t been repeated ([yet](https://blog.monitorama.com/planning-for-monitorama-eu-69e27d37105c)), but makes it all the more impressive that when an [underground electrical fire struck on Monday evening](http://koin.com/2017/05/22/power-outage-affecting-downtown-portland/) the organisers calmly scoped out an alternative venue, dropped $11k for one days rental and started the second day of the conference with seating for 550 people bang on time, with AV equipment and assistance provided by the original venue and still live-streamed (to 4,647 viewers). As you can imagine, many references were made to this achievement, and to the hilarious irony of a talk from the previous day referencing the [ongoing 55-year underground fire in Centralia, Pennsylvania](https://en.wikipedia.org/wiki/Centralia_mine_fire).
 
 
 ### Plenty of social opportunities
 
-I feel much of the value of a conference are the social connections you make and conversations you share about others’ experiences in their day jobs. This is especially important at conferences where people might have travelled solo and might not have anything to do in the evenings.
+I feel much of the value of a conference are the social connections you make and conversations you share about others’ experiences in their day jobs. This is especially important at conferences where people might have travelled solo and not have anything to do in the evenings.
 
 The vendor parties were great, with Sensu providing drinks & food based hospitality at a local bar and Grafana Labs providing free games at [Ground Kontrol](http://groundkontrol.com/), a local retro gaming arcade. Here we discovered the only ten player arcade game in the world—[Killer Queen](http://killerqueenarcade.com/).
 
@@ -46,12 +46,12 @@ Monitorama is the home of sock swag, and it’s great to see that vendors have f
 
 ### Observability
 
-Quite early on [Charity Majors talked about observability](https://vimeo.com/221055194), building on the themes from a talk last year by [Greg Poirier named ‘Monitoring is Dead. Long Live Monitoring’](https://vimeo.com/173610062). There followed a lot of references back to observability and it is great to see that organisations have started to invest significant effort to address observability as part of the delivery process (vs monitoring as an after thought). In Greg’s great talk he presents this description of observability:
+Quite early on [Charity Majors talked about observability](https://vimeo.com/221055194), building on the themes from a talk last year by [Greg Poirier named ‘Monitoring is Dead. Long Live Monitoring’](https://vimeo.com/173610062). There followed a lot of references back to observability and it is great to see that organisations have started to invest significant effort to address observability as part of the delivery process (vs monitoring as an afterthought). In Greg’s great talk he presents this description of observability:
  
 > A system is observable iff you can determine the behaviour of the system based on its outputs.
 —[Greg Poirier](https://vimeo.com/173610062)
 
-I came away feeling that we need to invest more effort ensuring that observability is considered as a core requirement of systems that we build, so that we can rely less on rudimentary synthetic monitoring which can’t do much more than tell us that something is wrong.
+I came away feeling that we need to invest more effort ensuring that observability is considered as a core requirement of systems that we build so that we can rely less on rudimentary synthetic monitoring which can’t do much more than telling us that something is wrong.
 
 ### OpenTracing
 
