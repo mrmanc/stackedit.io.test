@@ -51,8 +51,6 @@ Quite early on [Charity Majors talked about observability](https://vimeo.com/221
 > A system is observable iff you can determine the behaviour of the system based on its outputs.
 —[Greg Poirier](https://vimeo.com/173610062)
 
-I came away feeling that we need to invest more effort ensuring that observability is considered as a core requirement of systems that we build so that we can rely less on rudimentary synthetic monitoring which can’t do much more than telling us that something is wrong.
-
 ### OpenTracing
 
 We’ve been trying to improve visibility of our distributed systems at Auto Trader for a couple of years, providing a Java filter which can be easily added to applications to provide request correlation identifiers as response headers and allow developers to pass them on as request headers (available via a thread-local store) to the services that their application talks to. We’ve made limited progress, most likely because the incentive hasn’t been there—we haven’t had the ‘carrot’ which provides the benefit of this practice until recently (these identifiers are stored against metric measurements and application logs in our Elastic Stack set up).
@@ -98,13 +96,10 @@ There was a great deal of discussion about the merits of open-source and open st
 
 ## Take aways
 
-### Out of hours support
-
-We have discussed the idea of having our product squads providing support out of hours for their systems, yet this is something that we have made limited progress on. I believe we need to look seriously at what we need to do to achieve this for all the reasons Alice Goldfuss discussed. A good point was made that you need to have the right tools in place to allow teams to take responsibility for the support of their systems, otherwise their limited visibility and lack of context will cause significant frustration and confusion when more than one system is affected. 
 
 ### Open Tracing
 
-We have already started looking at how we can incorporate what we have already done with traceability with the OpenTracing standard, and consolidate the approach of something like Jaeger with our existing Elastic Stack set up. We believe that providing this information to our support teams is going to revolutionise the way we operate our environment, simplifying diagnostics and allowing us to rub out the massive hand drawn architecture diagram that sits behind our first line support team.
+We have already started looking at how we can incorporate what we have already done with traceability with the OpenTracing standard, and consolidate the approach of something like Jaeger with our existing Elastic Stack set up. We believe that providing this information to our support teams is going to revolutionise the way we operate our environment, simplifying diagnostics.
 
 ### Alternative ES hosting providers?
 
