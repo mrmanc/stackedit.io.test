@@ -3,21 +3,46 @@
 ---
 @charset "utf-8";
 
+@font-face {
+    font-family: 'at-fabriga-medium';
+    src: url('https://c.atcdn.co.uk/fonts/ATFabriga-Medium.eot');
+    src: url('https://c.atcdn.co.uk/fonts/ATFabriga-Medium.eot?#iefix') format('embedded-opentype'),
+        url('https://c.atcdn.co.uk/fonts/ATFabriga-Medium.woff2') format('woff2'),
+         url('https://c.atcdn.co.uk/fonts/ATFabriga-Medium.woff') format('woff'),
+         url('https://c.atcdn.co.uk/fonts/ATFabriga-Medium.ttf') format('truetype'),
+         url("https://c.atcdn.co.uk/fonts/ATFabriga-Medium.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'at-fabriga-regular';
+    src: url('https://c.atcdn.co.uk/fonts/ATFabriga-Regular.eot');
+    src: url('https://c.atcdn.co.uk/fonts/ATFabriga-Regular.eot?#iefix') format('embedded-opentype'),
+         url('https://c.atcdn.co.uk/fonts/ATFabriga-Regular.woff2') format('woff2'),    
+         url('https://c.atcdn.co.uk/fonts/ATFabriga-Regular.woff') format('woff'),
+         url('https://c.atcdn.co.uk/fonts/ATFabriga-Regular.ttf') format('truetype'),
+         url("https://c.atcdn.co.uk/fonts/ATFabriga-Regular.svg") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: "at-fabriga-regular", Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #222;
+$text-color:       #666666;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #313c53;
+// $brand-color--dark: #313c53;
 
-$grey-color:       #828282;
+
+$grey-color:       #E8E8E3;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -48,6 +73,14 @@ $on-laptop:        800px;
   background-image:      -o-linear-gradient(top, $start-colour, $end-colour);
   background-image:         linear-gradient(top, $start-colour, $end-colour);
   filter:            progid:DXImageTransform.Microsoft.gradient(start-colourStr='#{$start-colour}', end-colourStr='#{$end-colour}');
+}
+
+table.custom_table td {
+  padding-right: 50px;
+}
+
+table.custom_table th {
+  text-align: left;
 }
 
 
