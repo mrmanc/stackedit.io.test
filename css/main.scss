@@ -34,17 +34,10 @@ $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
-$spacing-unit:     30px;
+$spacing-unit:     8px;
 
 $text-color:       #666666;
 $background-color: #fdfdfd;
-$brand-color:      #313c53;
-// $brand-color--dark: #313c53;
-
-
-$grey-color:       #E8E8E3;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -54,8 +47,8 @@ $on-laptop:        800px;
 // Using media queries with like this:
 // @include media-query($palm) {
 //     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
+//         padding-right: $spacing-unit * 2;
+//         padding-left: $spacing-unit * 2;
 //     }
 // }
 @mixin media-query($device) {
@@ -73,14 +66,6 @@ $on-laptop:        800px;
   background-image:      -o-linear-gradient(top, $start-colour, $end-colour);
   background-image:         linear-gradient(top, $start-colour, $end-colour);
   filter:            progid:DXImageTransform.Microsoft.gradient(start-colourStr='#{$start-colour}', end-colourStr='#{$end-colour}');
-}
-
-table.custom_table td {
-  padding-right: 50px;
-}
-
-table.custom_table th {
-  text-align: left;
 }
 
 

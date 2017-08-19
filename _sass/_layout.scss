@@ -16,7 +16,7 @@
     padding: 12px 0;
     &,
     &:visited {
-        color: $grey-color-dark;
+        color: $at-grey-dark;
     }
 }
 
@@ -99,13 +99,13 @@
  * Site footer
  */
 .site-footer {
-    border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0 0 0;
+    border-top: 1px solid $at-grey-light;
+    padding: $spacing-unit*4 $spacing-unit*2 0;
 }
 
 .footer-heading {
     font-size: 18px;
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit*2;
 }
 
 .contact-list,
@@ -123,57 +123,56 @@
 footer {
     font-size: 15px;
     color: $text-color;
-    margin-left: -$spacing-unit / 2;
     text-align: center;
     @extend %clearfix;
 }
 
 .footer-col {
     float: left;
-    margin-bottom: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
+    margin-bottom: $spacing-unit*2;
+    padding-left: $spacing-unit*2;
 }
 
 .footer-col-1 {
-    width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-    width:         calc(35% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(35% - (#{$spacing-unit}*2));
+    width:         calc(35% - (#{$spacing-unit}*2));
 }
 
 .footer-col-2 {
-    width: -webkit-calc(20% - (#{$spacing-unit} / 2));
-    width:         calc(20% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(20% - (#{$spacing-unit}*2));
+    width:         calc(20% - (#{$spacing-unit}*2));
 }
 
 .footer-col-3 {
-    width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-    width:         calc(45% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(45% - (#{$spacing-unit}*2));
+    width:         calc(45% - (#{$spacing-unit}*2));
 }
 
 @include media-query($on-laptop) {
     .footer-col-1,
     .footer-col-2 {
-        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
-        width:         calc(50% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(50% - (#{$spacing-unit}*2));
+        width:         calc(50% - (#{$spacing-unit}*2));
     }
 
     .footer-col-3 {
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - (#{$spacing-unit}*2));
+        width:         calc(100% - (#{$spacing-unit}*2));
     }
 }
 
 @include media-query($on-palm) {
     .footer-col {
         float: none;
-        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
-        width:         calc(100% - (#{$spacing-unit} / 2));
+        width: -webkit-calc(100% - (#{$spacing-unit}*2));
+        width:         calc(100% - (#{$spacing-unit}*2));
     }
 }
 
 
 .copyright-base {
     width: 100%;
-    background: $brand-color;
+    background: $at-blue;
     border-bottom: none;
     box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1), 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 
@@ -206,15 +205,13 @@ footer {
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
 
 .page-heading {
 	font-size: 40px;
 	font-weight: 500;
 	line-height: 1.1;
-	color: $brand-color;
+	color: $at-blue;
+    margin-bottom:$spacing-unit*4;
 }
 
 .post-list {
@@ -222,13 +219,29 @@ footer {
     list-style: none;
 
     > li {
-        margin-bottom: $spacing-unit;
+        margin-bottom: $spacing-unit*4;
+        background: $at-white;
+        padding: $spacing-unit*3;
+        border-radius: 4px;
+        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.12);
+        transition: .1s box-shadow ease-out;
+        &:hover{
+            transition: .2s box-shadow ease-out;
+            box-shadow: 0 6px 6px 0 rgba(0,0,0,0.1);
+        }
+        &:last-child{
+            margin-bottom: 0;
+        }
+        p:last-child{
+            margin-bottom:0;
+        }
+
     }
 }
 
 .post-meta {
     font-size: $small-font-size;
-    color: $text-color;
+    color: $at-placeholder;
 }
 
 .post-link {
@@ -243,15 +256,28 @@ footer {
         padding-right: .25em;
     }
     .inactive {
-        color: $grey-color;
+        color: $at-grey;
     }
+}
+
+.home{
+ padding: $spacing-unit*4 0 0;
 }
 
 /**
  * Posts
  */
+
+.post{
+    background-color: $at-white;
+    padding: $spacing-unit*4;
+    @include media-query($on-laptop) {
+        padding: $spacing-unit*2;
+    }
+}
+
 .post-header {
-    margin-bottom: $spacing-unit;
+    margin-bottom: $spacing-unit*4;
     .social-share {
       float: right;
     }
@@ -270,8 +296,6 @@ footer {
 }
 
 .post-content {
-    margin-bottom: $spacing-unit;
-
     h2 {
         font-size: 32px;
 
@@ -279,7 +303,6 @@ footer {
             font-size: 28px;
         }
     }
-
     h3 {
         font-size: 26px;
 
@@ -287,7 +310,6 @@ footer {
             font-size: 22px;
         }
     }
-
     h4 {
         font-size: 20px;
 

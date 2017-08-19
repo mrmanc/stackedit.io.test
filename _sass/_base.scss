@@ -17,8 +17,8 @@ body {
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
-    color: $text-color;
-    background-color: $background-color;
+    color: $at-text;
+    background-color: $at-grey-light;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -29,7 +29,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit*2;
 }
 
 
@@ -67,10 +67,11 @@ figcaption {
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
+    margin-left: $spacing-unit*4;
 }
 
 li {
+    margin-bottom: $spacing-unit*2;
     > ul,
     > ol {
          margin-bottom: 0;
@@ -84,7 +85,8 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    font-family: "at-fabriga-medium";
+    font-family: "at-fabriga-medium", sans-serif;
+    color: $at-blue;
 }
 
 
@@ -96,16 +98,21 @@ h2 {
  * Links
  */
 a {
-    color: $brand-color;
+    color: $at-blue-light;
     text-decoration: none;
+    transition: color .2s;
 
-    &:visited {
-        color: darken($brand-color, 15%);
-    }
-
-    &:hover {
-        color: $text-color;
+    p > &{
         text-decoration: underline;
+    }
+    &.post-link:visited {
+        color: $at-placeholder;
+    }
+    &:hover, &.post-link:hover {
+        color: $at-aqua-dark;
+    }
+    &.btn{
+        text-decoration: none;
     }
 }
 
@@ -115,9 +122,9 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
+    color: $at-placeholder;
+    border-left: 4px solid $at-red;
+    padding: $spacing-unit $spacing-unit*2;
     font-size: 18px;
     letter-spacing: -1px;
     font-style: italic;
@@ -135,9 +142,9 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
+    border: 1px solid $at-grey-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $at-grey;
 }
 
 code {
@@ -161,19 +168,19 @@ pre {
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(980px - (#{$spacing-unit} * 2));
-    max-width:         calc(980px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(980px - (#{$spacing-unit}*8));
+    max-width:         calc(980px - (#{$spacing-unit}*8));
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-right: $spacing-unit*4;
+    padding-left: $spacing-unit*4;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(980px - (#{$spacing-unit}));
-        max-width:         calc(980px - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
+        max-width: -webkit-calc(980px - (#{$spacing-unit*4}));
+        max-width:         calc(980px - (#{$spacing-unit*4}));
+        padding-right: $spacing-unit*2;
+        padding-left: $spacing-unit*2;
     }
 }
 
@@ -197,7 +204,6 @@ pre {
  * Icons
  */
 .icon {
-
     > svg {
         display: inline-block;
         width: 16px;
@@ -205,9 +211,15 @@ pre {
         vertical-align: middle;
 
         path {
-            fill: $text-color;
+            fill: $at-blue-light;
+
+            a:hover > &{
+                fill: $at-aqua-dark;
+            }
         }
     }
+
+
 }
 
 /**

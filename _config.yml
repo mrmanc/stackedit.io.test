@@ -16,3 +16,5 @@ google_analytics_tracking_id: "UA-20049363-3"
 github_username: "autotraderuk"
 twitter_username: "autotraderlife"
 facebook_username: "autotraderlife"
+
+include_repo_ribbon: false

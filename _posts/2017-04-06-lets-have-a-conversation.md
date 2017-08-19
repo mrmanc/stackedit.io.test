@@ -71,7 +71,7 @@ The skill would know what intents to use based on the utterances that the user s
  
  For the first pass I managed to get the following phrase using the term 'Alexa, ask Portal Info for my report today'.  This is how it is broken down.
 
-The phrase spoken would be something like "Alexa, ask {{skill name}} for my report {{id}}.  In this case 'portal info' was the skill name and 'today' was the ID which meant we could reference the data easily, defined as a slot name .  The intent contained a slot name and utterances to identify the terms that the user would use to action the intent. 
+The phrase spoken would be something like "{% raw %}Alexa, ask {{skill name}} for my report {{id}}{% endraw %}".  In this case 'portal info' was the skill name and 'today' was the ID which meant we could reference the data easily, defined as a slot name .  The intent contained a slot name and utterances to identify the terms that the user would use to action the intent. 
 
 The response we wanted from Alexa was something like "today, you have 10 unread enquiries and 4 missed calls".
 

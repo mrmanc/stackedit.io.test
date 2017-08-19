@@ -1,8 +1,8 @@
 .social-share {
     font-size: $small-font-size;
-    color: $text-color;
+    color: $at-text;
 
     a {
-      text-decoration: none;
+      margin: 0 0 0 $spacing-unit;
     }
 }
