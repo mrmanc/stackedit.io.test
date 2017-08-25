@@ -19,11 +19,7 @@
     {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
-    {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.github.url }}/images/{{ page.image }}">
-    {% else %}
-    <meta name="twitter:image:src" content="{{ site.github.url }}/images/logo.png">
-    {% endif %}
+    <meta name="twitter:image:src" content="{{ site.github.url }}{{ site.twitter_card_image }}">
 
   <body>
 
