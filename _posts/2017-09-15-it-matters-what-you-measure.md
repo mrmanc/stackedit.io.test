@@ -40,7 +40,7 @@ This gives us one last chance to catch a broken build before customers see it.  
 
 After making this change I went back and retrofitted the new success metric for the older data, so we would be able to perform year-on-year comparisons.  What I found surprised me.
 
-<img src="{{ site.github.url }}/images/2017-08-07/release-success-yoyoy.JPG" style="width: 30em; float: right;" alt="Graph showing AT release success over time">
+<img src="{{ site.github.url }}/images/2017-09-15/release-success-yoyoy.JPG" style="width: 30em; float: right;" alt="Graph showing AT release success over time">
 
 As this graph shows, we’ve always seen steady improvement in our success rate.  This has been relatively easy to achieve because AT staff are a dedicated bunch and are always looking to improve things.  Ultimately this is why we track KPIs—they show us where we need to do better.
 
