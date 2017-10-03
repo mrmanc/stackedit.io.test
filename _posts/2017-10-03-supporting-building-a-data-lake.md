@@ -8,7 +8,7 @@ Data is king. Information is power. It's not just about storing lots of it thoug
 
 **WE NEEDED A DATA LAKE!**
 
-![a data lake]({{ site.github.url }}/images/2017-09-27/lake.png)
+![a data lake]({{ site.github.url }}/images/2017-10-03/lake.png)
 
 If you don't know what a data lake is, here's a very brief explanation:
 
@@ -20,7 +20,7 @@ This blog will be about the thoughts and decisions made around the network/stora
 
 As the most popular software framework for working with large amounts of unstructured data we decided to do a proof-of-concept with a Hadoop cluster.
 
-![Hadoop logo]({{ site.github.url }}/images/2017-09-27/hadoop.png)
+![Hadoop logo]({{ site.github.url }}/images/2017-10-03/hadoop.png)
 
 ### On-premise or in the cloud?
 
@@ -42,13 +42,13 @@ Once we knew where our data lake would be hosted we started looking at the AWS s
 
 This provides a secure tunnel from your corporate network to your AWS VPC which essentially makes it an extension of your internal network. The traffic goes over the Internet to get to AWS but it's encrypted. If you’re connecting to an S3 bucket, you connect via a public IP address, so to force this traffic through your VPN, you’re going to need to include almost all Amazon IP’s in the ranges you send down the tunnel. This will likely include traffic to Amazon.com so this is something to consider.
 
-![Amazon VPN to VPC example]({{ site.github.url }}/images/2017-09-27/vpn.png) 
+![Amazon VPN to VPC example]({{ site.github.url }}/images/2017-10-03/vpn.png) 
 
 **2.  Direct Connect.**
 
 AWS Direct Connect is a direct link into an AWS Data-Centre. If your servers are in an AWS Direct Connect Location you can private link into the AWS cloud. Traffic leaving your data-centre will never go out onto the public Internet. Instead, traffic will stay on your Direct Connect providers network until it reaches an AWS data-centre. This means you know exactly how much bandwidth you can have and can also get a very good idea on the latency of traffic going to any services running in AWS.
 
-![Amazon Direct Connection VPC example]({{ site.github.url }}/images/2017-09-27/directconnect.png)
+![Amazon Direct Connection VPC example]({{ site.github.url }}/images/2017-10-03/directconnect.png)
 
 ### Setting up the VPN
 
