@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Text Mining Our Dealer Reviews"
-date:   2017-07-29
+date:   2017-10-10
 author: Amy O' Leary, Karim Essawi
 ---
 
@@ -62,13 +62,13 @@ showWordCloud(wordcloud, “My wordcloud”)
 
 Here’s a word cloud for all reviews:
 
-![All Reviews Wordcloud]({{ site.github.url }}/images/2017-07-29/all-reviews.png)
+![All Reviews Wordcloud]({{ site.github.url }}/images/2017-10-10/all-reviews.png)
 
 They seem pretty happy overall. Great service and test drives seem to be high on the priority list. What about our unhappy customers?
 
 Here’s a word cloud for our one star reviews:
 
-![All Reviews Wordcloud]({{ site.github.url }}/images/2017-07-29/1-star-reviews.png)
+![All Reviews Wordcloud]({{ site.github.url }}/images/2017-10-10/1-star-reviews.png)
 
 Seems like honesty is quite important here: "told" and "said" are appearing quite frequently.
 But what has the dealer been telling our customers that they are unhappy about? Here’s where word clouds offer limited help. For example, “warranty” is quite important, but is it connected to what was “told”?
@@ -104,7 +104,7 @@ predictions = model.predict_output_word(['dealer', 'told'], topn=20)
 This will create twenty predictions of words that occurred close to where the words “dealer told” occurred.
 We’ve displayed the results in a bubble chart in javascript D3, as appears [in this blog.](https://bl.ocks.org/mbostock/4063269) Note, we’ve used [this library](https://github.com/tomwanzek/d3-ng2-service) to be able to use D3 in Angular 4.
 
-![What Did The Dealer Say]({{ site.github.url }}/images/2017-07-29/dealer-said-what.png)
+![What Did The Dealer Say]({{ site.github.url }}/images/2017-10-10/dealer-said-what.png)
 
 Pretty neat! There are infinitely many more things you can find out about what’s on your customer’s minds, purely by changing the text “dealer told” in the code above. We’ve found that rather than showing some glossy graphs in a PDF report to interested parties, it’s much better to have living graphs that people can interact with and explore themselves. To do this in a lean way, we use [Jupyter Notebook](http://jupyter.org/), which allows me to code in Python directly in my browser, and change and execute sections of the code at will. Jupyter Notebook will display the results in the browser directly under the code. It’s a lot quicker than creating a web application to allow users to interact with their data, as long as you’re happy to sit with them.
 
@@ -146,7 +146,7 @@ wb.save('~/Documents/exportDRAudit_with_sentiment_scores.xls')
 This outputs a csv file, mapping each review to the positive sentiment score and negative sentiment score of the review.
 Now we can create a graph using Plotly to show what percentage of our customers were happy.
 
-![All Reviews By Sentiment]({{ site.github.url }}/images/2017-07-29/all-reviews-sentiment.png)
+![All Reviews By Sentiment]({{ site.github.url }}/images/2017-10-10/all-reviews-sentiment.png)
 
 We can see here that the vast majority of customer reviews we receive are five star reviews, and the sentiment ranges from neutral to mildly positive. As you would expect, while our customers report high satisfaction, the language they use is quite reserved or neutral, as you would see often in polite conversation.
 
@@ -337,7 +337,7 @@ def buildDataForModeratedReviews(x = [], y = [], color = [], size = []):
             size.append(int(rejected_ratio_dict[key] * 100))
 ```
 
-![Rejected Reviews Sentiment]({{ site.github.url }}/images/2017-07-29/rejected-reviews-sentiment.png)
+![Rejected Reviews Sentiment]({{ site.github.url }}/images/2017-10-10/rejected-reviews-sentiment.png)
 
 Wow! These are quite an expressive group of people! While the sentiment of our general population was quite neutral, this group has sentiment ranging from wildly positive to quite negative. It’s also interesting to note that the sentiment quite often doesn’t match up to the star rating. We can get a zero star rating with positive sentiment. When we analysed reviews rejected by our automatic system, we found a lot of positive reviews had quite negative sentiment.
 So now we know what a review that gets rejected looks like, could we use this to reduce the load on our manual moderators? With the ever increasing trend for customers to write a review, it’s not always feasible for a company to manually moderate each one. What a huge cost saving we could make if we used rating and sentiment analysis to flag reviews to be manually moderated! 
