@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Everything's a component—writing domain specific, re-usable Angular components across squads"
-date:   2017-11-07
+date:   2017-10-29
 author: Craig Shipton
 typescript-syntax: true
+comments: true
 ---
 
 If you haven't heard about how Auto Trader works yet, we're structured into squads wherein each squad owns, maintains and develops within a particular domain to implement our business initiatives autonomously.  Within the retailer products division of Auto Trader are several squads working on the multi-faceted ‘Dealer Portal’ product to help vehicle dealers optimise their daily workings.  All of the disparate bits of technology to make Dealer Portal tick are encompassed under an umbrella project and common client/server technology stack we lovingly refer to as ‘Portal’. This post will discuss how we formed a strategy to maintain consistency across the Portal front-end.
@@ -38,11 +39,11 @@ Like most JavaScript client-side libraries written post-2010, the Component Libr
 In terms of how it fits alongside existing component library solutions like Angular Material and ng-bootstrap—it actually sits on top of them!  We deliberately chose to build the Component Library this way as there is a world of developers who have already solved the problems that we would have if we created our own common components.  The open-source community can move much faster than us when it comes to maintaining these components and to put it bluntly, we'd rather contribute back to the open-source community with pull requests to existing libraries with new features we require.  Furthermore, we're not trying to solve generic components (each squad can use those directly) but instead more invested in solving problems unique to our domain.  In the same way that it's advantageous for apps to use existing domain-specific components from the Component Library, we can use the common components from those other libraries and style/adapt them to our needs.
 
 Holistically, the library sits within this hierarchy:
-
+	
 ![Auto Trader Application Hierarchy]({{ site.github.url }}/images/{{page.date | date: "%F"}}/angular-layers.svg){: .center-image }
 
 As you can see, our apps are built upon a combination of the Component Library, generic component libraries, built-in Angular components and Angular itself.
-
+	
 ## Component design
 
 Being new to Angular itself when writing the library we read blog posts from other developers, experimented and iterated on an approach to writing components in a consistent and understandable manner.  We'll go over a few of the more interesting component development considerations that we made when writing our components.
@@ -148,7 +149,7 @@ The parent could bind to it and perform whichever action is relevant for that si
 
 In other cases, we found that passing up full objects representing a component's updated view model was a more suitable approach, like `clickedHideNavigationLink` in the example.  This worked well if a particular component (`at-navigation` in this example) didn't want its parent to decide how its own state should be changed when the user interacts with it.
 
-
+	
 ### Component modules
 
 With the majority of our components being very opinionated and requiring them to operate the same way across a number of apps, we made sure to make the most of Angular's module system.  Our feature modules would encompass everything required to use a particular component, e.g. the header, which would be made up of the modules owning that component's direct children.  Typically these child components would reside in sub-directories with their own feature module and so on, until reaching the bottom-most module—in the same way that components naturally formed into a tree structure, our modules would do the same.
@@ -311,7 +312,7 @@ With these steps complete we can package our dist folder ready for publishing to
 
 ## Evaluation of approach
 
-At the time of creation, the approach of writing an opinionated library to solve the problems that we faced was either non-existent or not written about.  Over the past year, we identified a number of advantages and disadvantages with our solution.
+At the time of creation, the approach of writing an opinionated library to solve the problems that we faced was either non-existent or not written about.  Over the past year, we identified a number of advantages and disadvantages with our solution. 
 
 ### Advantages
 
