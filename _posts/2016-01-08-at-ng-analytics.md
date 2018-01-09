@@ -4,7 +4,6 @@ title: Configurable custom dimensions for AngularJS apps
 category: development
 tags: AngularJS, Google Analytics, Open Source
 author: Thomas Inman
-date:   2016-01-08
 ---
 
 As part of the work on one of our new AngularJS apps we had to look at how we were going to integrate Google Analytics page and event tracking. One of the key points to cover was that it had to be configurable by a range of users across the business. Often config like this would be held in a spreadsheet and converted by hand by the development team into code. Keen to avoid this we tried to come up with a JSON based config that would be both human readable and directly used by the analytics module. The config ended up being split into three main parts; describing custom dimensions, pages, and global events.

@@ -1,7 +1,6 @@
 ---
 layout: post
 title: "How we (almost) completed a natural language recipe recommendation engine using Twitter in a 24-hour hackathon"
-date: 2018-01-09
 author: Andy May, Leon Pelech (@LeonPelech), Phillip Taylor, Simon Dudley (@SiLaDu)
 ---
 

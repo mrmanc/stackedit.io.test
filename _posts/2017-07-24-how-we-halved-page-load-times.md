@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "How we halved page load times using Tree Shaking and Ahead Of Time Compilation"
-date:   2017-07-24
 author: Mike Smith
 ---
 

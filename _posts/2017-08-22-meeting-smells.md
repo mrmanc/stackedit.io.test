@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Meeting Smells and How To Avoid Them"
-date:   2017-08-22
 author: Amy O' Leary
 ---
 

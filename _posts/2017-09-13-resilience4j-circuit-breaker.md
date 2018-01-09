@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Resilience4j - a lightweight, flexible circuit breaker"
-date:   2017-09-13
 author: Philippa Main
 ---
 

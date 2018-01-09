@@ -2,7 +2,6 @@
 layout: post
 title:  "Building a Fast Search Experience"
 author: Elliot Sumner
-date:   2017-10-27
 ---
 
 Auto Trader provides a search platform for dealers to buy vehicles from other traders. A high-performance search experience is critical, as this helps create a competitive marketplace for dealers to purchase vehicles. This blog post will take you through some of the changes we made to create a high-performance search platform that regularly returns results in less than a second.

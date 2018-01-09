@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Postmortem on the application outage on Fri 26th May"
-date:   2017-06-16
 author: Dave Whyte
 ---
 On Friday 26th May, we experienced a major service outage for 75 minutes around one of our core products, VDS (Vehicle Data System). The result of this was some applications not being able to return vehicle-specific data.

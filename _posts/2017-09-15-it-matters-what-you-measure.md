@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "It matters what you measure"
-date:   2017-09-15
 author: Matt Beaney
 ---
 It’s not enough to simply measure things, you need to measure the _right_ things! When I first introduced release reporting at Auto Trader I based the success criteria on the things the business cared about at the time.  It was very basic and a release was deemed to have ‘failed’ if it was either backed out or needed to be fixed. As the way we measured success evolved we noticed how this didn’t really represent the direction we wanted to follow.

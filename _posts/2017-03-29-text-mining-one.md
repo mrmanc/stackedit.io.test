@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Text mining our customer calls"
-date:   2017-03-29
 author: "Amy O' Leary, Thomas Inman, Tom Collingburn"
 ---
 

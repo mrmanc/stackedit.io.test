@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Text Mining Our Dealer Reviews"
-date:   2017-10-10
 author: Amy O' Leary, Karim Essawi
 ---
 

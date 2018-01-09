@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Exception Handling Conundrums"
-date:   2017-09-05
 author: Chloe Hodgson
 ---
 

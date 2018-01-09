@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Using syntax trees for text mining"
-date:   2017-03-30
 author: "Amy O' Leary, Thomas Inman, Tom Collingburn"
 ---
 

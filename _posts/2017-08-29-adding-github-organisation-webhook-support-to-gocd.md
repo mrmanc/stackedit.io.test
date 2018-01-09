@@ -1,7 +1,6 @@
 --- 
 layout: post 
 title: Adding GitHub Organisation Webhook Support to GoCD 
-date: 2017-08-29 
 author: Stephen Murby
 ---
 The bulk of our active codebases, over time, have made their home our GitHub Enterprise server. We also have a [GoCD](https://www.gocd.org/) (continuous delivery pipeline) server that is polling these repositories to work out if it has something to do. The upshot of this is that, every minute, for each of these codebases, GoCD polls Github for changes. This consumes a lot of unneccessary CPU cycles (especially because some of these sources haven't been updated recently) and is one of the reasons our GoCD server is slower than we'd like it to be. This blog post will talk about how we improved this and my experiences while contributing code back to the open source community.

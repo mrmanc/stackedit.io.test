@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Meaningful Code Using Types"
-date:   2016-05-12
 author: Michael Hatch
 excerpt: Crafting meaningful code is vital to the long term success of a project. Here I'll discuss how we can use types to help us to acheive this goal. I'll also go through a few helpful IntelliJ refactors that help introduce our types.
 ---

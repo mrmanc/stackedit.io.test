@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Recommendation Engine Hack"
-date:   2017-01-15
 author: Amy O' Leary
 excerpt: Here's what we learned on the hackathon when we developed a fully functioning recommendation engine for vehicle adverts.
 ---
