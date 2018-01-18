@@ -4,7 +4,7 @@ title: "How we (almost) completed a natural language recipe recommendation engin
 author: Andy May, Leon Pelech (@LeonPelech), Phillip Taylor, Simon Dudley (@SiLaDu)
 ---
 
-On 28th October we four Java developers attended [Hack 100's Hack Manchester event](https://www.hac100.com/event/hack-mcr-17/). 
+On 28th October we four Java developers attended [HAC100's Hack Manchester event](https://www.hac100.com/event/hack-mcr-17/). 
 A 24-hour hackathon of coding, coffee and chaos (25 hours really as the clocks went back). 
 We were one of three Auto Trader teams out of about 50 in total. 
 Our team took on the [dunnhumby challenge](http://www.dunnhumby.com/about-us/events/hackmanchester2017), 
@@ -24,7 +24,7 @@ Our team was made up of four developers who usually work on consumer-focused pro
 
 Ballmer Peaky Blinders was the name we settled on. It's a suitably bad geeky pun on [The Ballmer Peak](https://xkcd.com/323/) and [everyone's favourite Brummy gangsters](http://www.bbc.co.uk/programmes/b045fz8r).
 
-It seemed appropriate since Auto Trader was sponsoring the bar at the event and Hack100 had a joke about reaching the Ballmer Peak in the pre-hack literature.
+It seemed appropriate since Auto Trader was sponsoring the bar at the event and HAC100 had a joke about reaching the Ballmer Peak in the pre-hack literature.
 At least one team member was from Birmingham but other than that we have no connection with the post-war criminal underworld.
 
 In retrospect, it was a pain to type and spell correctly every time we wanted to test stuff!
@@ -175,7 +175,7 @@ It's hard to describe the incredible buzz you get from hours of individuals hard
 
 The API itself is very usable; to find a recipe including garlic the query is:
 
-`http://api.yummly.com/v1/api/recipes?_app_id=<OUR_ID>&_app_key=<OUR_APP_KEY>&allowedIngredient[]=garlic`,
+`http://api.yummly.com/v1/api/recipes?_app_id=<OUR_ID>&_app_key=<OUR_APP_KEY>&allowedIngredient[]=garlic`
 
 or you can get all supported ingredients by querying the metadata:
 
@@ -316,6 +316,15 @@ The Twitter API allows you to send a media file as part of a tweet, separate fro
 * Delete the temporary file.
 
 [For more details, click here to see the code.](<https://github.com/siladu/recipe-recommender-hack/blob/b9495759a5332b270c83a7c4a2d77640c7be84a7/src/main/kotlin/com/github/gnoely/twitter/TwitterOut.kt#L65>)
+
+#### Update
+
+> Since posting the blog, Andy Piper from Twitter suggested using the Direct Message API.
+We've had a look at the documentation and it does look like a better experience for a chatbot. 
+If only our coffee-addled brains had thought of this at the time!
+
+<blockquote class="twitter-tweet" data-conversation="none" data-cards="hidden" data-lang="en"><p lang="en" dir="ltr">nice read, thanks for the write-up! from a <a href="https://twitter.com/TwitterAPI?ref_src=twsrc%5Etfw">@TwitterAPI</a> perspective, you might also have considered our latest Direct Message APIs with quick replies, buttons, welcome messages etc for a nicer bot experience. <a href="https://t.co/aKYc8Aaw36">https://t.co/aKYc8Aaw36</a></p>&mdash; andy piper (pipes) (@andypiper) <a href="https://twitter.com/andypiper/status/951106383012823040?ref_src=twsrc%5Etfw">January 10, 2018</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
 
 ### NLP with Amazon Lex
 
