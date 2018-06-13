@@ -26,7 +26,7 @@ introduce into the data when experimenting on users.
 You may remember an old episode of Friends, where Chandler’s paranoid new flatmate confronts him:
 
 
-<img src="{{ site.github.url }}/images/2018-05-18/Friends_episode043.jpg" width="50%" 
+<img src="{{ site.github.url }}/images/2018-06-13/Friends_episode043.jpg" width="50%" 
  class="u-p-10 u-center-img" alt="Friends episode - Chandler and his crazy room-mate"/>
 
 
@@ -81,7 +81,7 @@ and also eat ice cream more often in the summer.
 You can even visit the site [“spurious correlation”](http://www.tylervigen.com/spurious-correlations) 
 to see what crazy things you can “prove” if you’re just given enough data.
 
-<img src="{{ site.github.url }}/images/2018-05-13/chart.png" width="70%" class="u-p-10 u-center-img" alt="A Spurious Correlation"/>
+<img src="{{ site.github.url }}/images/2018-06-13/chart.png" width="70%" class="u-p-10 u-center-img" alt="A Spurious Correlation"/>
 
 
 This is why we need to do [A/B tests](https://en.wikipedia.org/wiki/A/B_testing), rather than just analysing existing differences in
@@ -110,7 +110,7 @@ experiments you run. This XKCD cartoon sums it up perfectly:
 If you want to learn more about understanding common errors in collecting and analysing
 data, a friendly and entertaining read is Ben Goldacre’s “Bad Pharma”.
 
-<img src="{{ site.github.url }}/images/2018-05-13/bad-pharma.jpg" width="50%" class="u-p-10 u-center-img" alt="Bad Pharma Book"/>
+<img src="{{ site.github.url }}/images/2018-06-13/bad-pharma.jpg" width="50%" class="u-p-10 u-center-img" alt="Bad Pharma Book"/>
 
 I picked this book up thinking it was about the world of medicine, and found that almost
 every issue he discussed about medical research applied to the world of data driven
