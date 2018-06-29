@@ -11,13 +11,13 @@ Gradually over the last couple of years (starting with a session to define what 
 
 These descriptions build on the established Auto Trader values: humility, determination, reliability, curiosity & inspiration. You can watch [Auto Trader’s CEO Trevor Mather talking about these values on our About Us site](http://about-us.autotrader.co.uk/home/our-values/).
 
-> Shouldn’t we all just be called ‘Engineer’?
+### Shouldn’t we all just be called ‘Engineer’?
 
 We are aware that plenty of organisations are moving towards more generic titles to match their flatter structured, perhaps even abandoning any idea of a level and just using the term ‘Engineer’. There are obvious positives to this approach. One is that it eliminates the ability to ‘pull rank’, instead requiring collaboration and consensus. Another is that it reduces the expectation of significant promotion related pay rises allowing instead for progression and contribution to be recognised continually by incremental steps. It could also reduce alienation between ‘proper’ developers and other roles which write code—now everyone can be respected for the fact they apply technical knowledge to solve problems.
 
 But it can’t be ignored that this also causes anxiety amongst some (especially early career) developers, who struggle to see that they are making progress and worry that not being able to describe their title undermines their ability to explain their progression to future employers.
 
-> Does it work?
+### Does it work?
 
 We have trialled these role descriptions in performance development conversations with our developers with very positive feedback. By describing what we expect to see of our developers in various aspects of their role at each level we have a less subjective opinion-based discussion and highlight to developers that a lot of what they need to focus on is not writing code.
  
@@ -41,7 +41,7 @@ Then from Senior onwards:
 * Coaching—developing those around you
 * Live Support/Operations—considering and assisting in the operation of the products you own
 
-> How is it used?
+### How is it used?
 
 We ask developers to look at the description of their current role, thinking about whether it fit with their current perception of their progression. Where it does not, they might find it useful to discuss this with their those involved in their personal development, to see whether they agree about their progress.
 

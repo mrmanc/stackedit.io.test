@@ -2,6 +2,8 @@
 layout: post
 title:  "Lead Developer 2017"
 author: Phil Armstrong
+redirect_from:
+- /2017/08/29/lead-developer-conference-2017.html
 ---
 I was given the opportunity to attend the Lead Developer conference in London, which occurred on the 8th and 9th of June 2017 in the Queen Elizabeth Exhibition Centre in London. This was obviously exciting enough on its own, but it also coincided with the UK General Election, and the QEII Centre is situated right in the heart of Westminster, opposite the cathedral and behind the Supreme Court, just a stone's throw from the Houses of Parliament.
 
@@ -19,7 +21,9 @@ How often do you find yourself in a conversation with one or more people and som
 
 Since I saw this talk it's something I'm constantly aware of doing and actively trying to stop. It can be very hard, especially if you know you'll get a laugh or get to be the centre of attention. We don't truly have conversations unless both parties are actively trying to, we generally just take turns talking at each other.
 
->‘The opposite of talking isn’t listening, it’s waiting’ - Fran Lebowitz
+> The opposite of talking isn’t listening, it’s waiting
+> 
+> —Fran Lebowitz
 
 As a manager your customer is your employee, therefore you should strive to understand them in the same way you should understand your customer base. 
 
@@ -32,7 +36,9 @@ Merely being quiet doesn’t count as listening, it is very easy to paraphrase o
 
 Ask reflective questions, this shows that you’ve paid attention and understood the issue, it allows you to dive deeper into any part of the issue you want more information on, and allows you to redirect the conversation back on topic if the topic has wandered. Briefly explaining back the issue will allow the other person to clarify any points you may have misunderstood, or just add general clarification.
 
-> ‘Every clarification breeds new questions.’ - Arthur Bloch
+> Every clarification breeds new questions.
+> 
+> —Arthur Bloch
 
 When searching for solutions, it is important to frame the issue correctly, don’t ask _‘What would you do if …?’_ questions, it’s hard to get meaningful answers from hypothetical problems. Instead, ask for stories. _‘Tell be about a day when this issue was particularly bad’_. Being based in reality allows for greater understanding of the problem and can lead to further questioning such as whether that approach was the best.
 

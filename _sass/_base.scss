@@ -123,7 +123,7 @@ a {
  */
 blockquote {
     color: $at-placeholder;
-    border-left: 4px solid $at-red;
+    border-left: 4px solid $at-grey-dark;
     padding: $spacing-unit $spacing-unit*2;
     font-size: 18px;
     letter-spacing: -1px;
@@ -132,9 +132,17 @@ blockquote {
     > :last-child {
         margin-bottom: 0;
     }
+    quotes: "“" "”";
 }
 
-
+blockquote:before {
+    color: $at-grey-dark;
+    content: open-quote;
+    font-size: 2em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
 
 /**
  * Code formatting

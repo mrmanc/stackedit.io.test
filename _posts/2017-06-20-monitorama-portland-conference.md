@@ -49,7 +49,10 @@ Monitorama is the home of sock swag, and it’s great to see that vendors have f
 Quite early on [Charity Majors talked about observability](https://vimeo.com/221055194), building on the themes from a talk last year by [Greg Poirier named ‘Monitoring is Dead. Long Live Monitoring’](https://vimeo.com/173610062). There followed a lot of references back to observability and it is great to see that organisations have started to invest significant effort to address observability as part of the delivery process (vs monitoring as an afterthought). In Greg’s great talk he presents this description of observability:
  
 > A system is observable iff you can determine the behaviour of the system based on its outputs.
-—[Greg Poirier](https://vimeo.com/173610062)
+> 
+> —[Greg Poirier](https://vimeo.com/173610062)
+
+I came away feeling that we need to invest more effort ensuring that observability is considered as a core requirement of systems that we build so that we can rely less on rudimentary synthetic monitoring which can’t do much more than telling us that something is wrong.
 
 ### OpenTracing
 
@@ -96,10 +99,13 @@ There was a great deal of discussion about the merits of open-source and open st
 
 ## Take aways
 
+### Out of hours support
+
+We have discussed the idea of having our product squads providing support out of hours for their systems, yet this is something that we have made limited progress on. I believe we need to look seriously at what we need to do to achieve this for all the reasons Alice Goldfuss discussed. A good point was made that you need to have the right tools in place to allow teams to take responsibility for the support of their systems, otherwise their limited visibility and lack of context will cause significant frustration and confusion when more than one system is affected. 
 
 ### Open Tracing
 
-We have already started looking at how we can incorporate what we have already done with traceability with the OpenTracing standard, and consolidate the approach of something like Jaeger with our existing Elastic Stack set up. We believe that providing this information to our support teams is going to revolutionise the way we operate our environment, simplifying diagnostics.
+We have already started looking at how we can incorporate what we have already done with traceability with the OpenTracing standard, and consolidate the approach of something like Jaeger with our existing Elastic Stack set up. We believe that providing this information to our support teams is going to revolutionise the way we operate our environment, simplifying diagnostics and allowing us to rub out the massive hand drawn architecture diagram that sits behind our first line support team.
 
 ### Alternative ES hosting providers?
 

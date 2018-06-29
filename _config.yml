@@ -26,6 +26,7 @@ facebook:
   username: autotraderlife
 
 include_repo_ribbon: false
+include_comments: false
 
 logo: /images/at-chevron_4096x4096.png
 
