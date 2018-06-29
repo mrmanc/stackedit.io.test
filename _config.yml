@@ -27,6 +27,7 @@ facebook:
 
 include_repo_ribbon: false
 include_comments: false
+disqus_subdomain: http-engineering-autotrader-co-uk
 
 logo: /images/at-chevron_4096x4096.png
 
