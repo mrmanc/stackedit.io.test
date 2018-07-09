@@ -14,6 +14,9 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-redirect-from
+  - jekyll-remote-theme
+
+remote_theme: autotraderuk/autotrader-blog-jekyll-theme@v0.2.0
 
 paginate: 20
 paginate_path: "/page-:num/"
@@ -21,7 +24,7 @@ google_analytics_tracking_id: UA-20049363-3
 github:
   username: autotraderuk
 twitter:
-  username: autotraderlife
+  username: autotraderlife # This is used by jekyll-seo-tag
 facebook:
   username: autotraderlife
 
@@ -29,10 +32,11 @@ include_repo_ribbon: false
 include_comments: false
 disqus_subdomain: http-engineering-autotrader-co-uk
 
-logo: /images/at-chevron_4096x4096.png
-
+# start jekyll-seo-tag configuration
+logo: /assets/images/at-chevron_4096x4096.png
 defaults:
   - scope:
       path: ""
     values:
-      image: /images/at-chevron_4096x4096.png
+      image: /assets/images/at-chevron_4096x4096.png
+# end jekyll-seo-tag configuration
