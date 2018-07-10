@@ -16,10 +16,12 @@ plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
 
+remote_theme: autotraderuk/autotrader-blog-jekyll-theme@v0.2.1
+
 paginate: 20
 paginate_path: "/page-:num/"
 google_analytics_tracking_id: UA-20049363-3
-github:
+githubdotcom:
   username: autotraderuk
 twitter:
   username: autotraderlife # This is used by jekyll-seo-tag
@@ -38,5 +40,3 @@ defaults:
     values:
       image: /assets/images/at-chevron_4096x4096.png
 # end jekyll-seo-tag configuration
-
-remote_theme: autotraderuk/autotrader-blog-jekyll-theme@v0.2.0
