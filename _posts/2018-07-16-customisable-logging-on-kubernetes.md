@@ -3,6 +3,7 @@ layout: post
 title:  "Customisable Logging on Kubernetes"
 author: Mike Eves
 excerpt_separator: <!--more-->
+date: 2018-07-16 17:00:00 +0100
 ---
 Centralised logging has been a part of Auto Trader for the best part of eight years—the last three of which we've adopted Elasticsearch as our choice of software.
 
