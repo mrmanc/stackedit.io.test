@@ -3,7 +3,6 @@ layout: post
 title:  "Customisable Logging on Kubernetes"
 author: Mike Eves
 excerpt_separator: <!--more-->
-date: 2018-07-16 17:00:00 +0100
 ---
 Centralised logging has been a part of Auto Trader for the best part of eight years—the last three of which we've adopted Elasticsearch as our choice of software.
 
@@ -290,7 +289,7 @@ This is great because we can create generic modules for different log formats (C
 
 Finally, you can sit back and bear the fruits of your labour; meaningful, rich & structured logs.
 
-<img src="{{ site.github.url }}/images/2018-07-16/kibana.png" alt="Screenshot of a log event in Kibana">
+<img src="{{ site.github.url }}/images/2018-07-15/kibana.png" alt="Screenshot of a log event in Kibana">
 
 ## Considerations
 
