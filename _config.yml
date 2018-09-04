@@ -2,6 +2,7 @@
 title: Auto Trader Engineering Blog
 description: > # this means to ignore newlines until "baseurl:"
   A look at the interesting parts of the engineering behind Auto Trader.
+timezone: Europe/London
 
 # Build settings
 markdown: kramdown
