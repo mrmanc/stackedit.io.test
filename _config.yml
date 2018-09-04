@@ -30,7 +30,7 @@ facebook:
   username: autotraderlife
 
 include_repo_ribbon: false
-include_comments: false
+include_comments: true
 disqus_subdomain: http-engineering-autotrader-co-uk
 
 # start jekyll-seo-tag configuration
