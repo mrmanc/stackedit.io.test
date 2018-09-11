@@ -12,6 +12,16 @@ stock online. As an extension of this, we offer a product that allows customers 
 
 <!--more-->  
 
+<div markdown="1" class="callout">
+
+Update (11-01-2018): Some discussion has come up around this post, and have (rightly) pointed out that there are solutions that will provide this facility. Whilst we did do some rigorous searching to try to find more out of the box solutions (both for requesting certs and secure storage of the associated private keys), at design time we couldn't really find a solution which seemed to fit the bill. Turns out we were rigorously searching for all the wrong things. Suggested solutions such as Cloudflare, Caddy, and Openresty can provide this, and I would strongly recommend investigating these as your first port of call.  
+
+Caddy was actually solution that we encountered late into development, but decided against migrating to it as we were unsure of the time that would be taken in adapting our secure key storage solution to work with it (if somebody could additionally suggest a solution for secure mass key storage, I will add that in here too!).
+
+(Thanks to Hacker News commenters "simplyinfinity" and "nodesocket", and Reddit user "procipher" for the suggestions)
+
+</div>
+
 The first thing to worry about is cost. The simplest solution would have meant purchasing certificates for each 
 domain, and then adding them to our load balancer alongside our existing Auto Trader certificates. This would either 
 mean us absorbing this particularly hefty cost, or otherwise asking customers for additional money, which is of 
