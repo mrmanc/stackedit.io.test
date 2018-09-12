@@ -22,6 +22,16 @@ Caddy was actually solution that we encountered late into development, but decid
 
 </div>
 
+<div markdown="1" class="callout">
+
+Update (12-01-2018): The question came up of donating to Let's Encrypt, to say thanks and support them in their work. In response to the question, Auto Trader wants to issue the following statement:
+
+> Auto Trader’s Make a Difference strategy extends to supporting the wider technology, automotive, advertising and creative industries. We believe that the important work the Internet Security Research Group are doing with Let’s Encrypt is vital to the technical industry, and that they have delivered a real improvement to our community.
+> 
+> For that reason, as part of this project, we decided to support Let’s Encrypt with a donation to recognise their work and the value that we have received from it. We would encourage others to donate too, particularly organisations who rely on their services to provide certificates.
+
+</div>
+
 The first thing to worry about is cost. The simplest solution would have meant purchasing certificates for each 
 domain, and then adding them to our load balancer alongside our existing Auto Trader certificates. This would either 
 mean us absorbing this particularly hefty cost, or otherwise asking customers for additional money, which is of 
