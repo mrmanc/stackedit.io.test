@@ -14,7 +14,7 @@ stock online. As an extension of this, we offer a product that allows customers 
 
 <div markdown="1" class="callout">
 
-Update (11-01-2018): Some discussion has come up around this post, and have (rightly) pointed out that there are solutions that will provide this facility. Whilst we did do some rigorous searching to try to find more out of the box solutions (both for requesting certs and secure storage of the associated private keys), at design time we couldn't really find a solution which seemed to fit the bill. Turns out we were rigorously searching for all the wrong things. Suggested solutions such as Cloudflare, Caddy, and Openresty can provide this, and I would strongly recommend investigating these as your first port of call.  
+Update (Sep 11, 2018): Some discussion has come up around this post, and have (rightly) pointed out that there are solutions that will provide this facility. Whilst we did do some rigorous searching to try to find more out of the box solutions (both for requesting certs and secure storage of the associated private keys), at design time we couldn't really find a solution which seemed to fit the bill. Turns out we were rigorously searching for all the wrong things. Suggested solutions such as Cloudflare, Caddy, and Openresty can provide this, and I would strongly recommend investigating these as your first port of call.  
 
 Caddy was actually solution that we encountered late into development, but decided against migrating to it as we were unsure of the time that would be taken in adapting our secure key storage solution to work with it (if somebody could additionally suggest a solution for secure mass key storage, I will add that in here too!).
 
@@ -24,7 +24,7 @@ Caddy was actually solution that we encountered late into development, but decid
 
 <div markdown="1" class="callout">
 
-Update (12-01-2018): The question came up of donating to Let's Encrypt, to say thanks and support them in their work. In response to the question, Auto Trader wants to issue the following statement:
+Update (Sep 12, 2018): The question came up of donating to Let's Encrypt, to say thanks and support them in their work. In response to the question, Auto Trader wants to issue the following statement:
 
 > Auto Trader’s Make a Difference strategy extends to supporting the wider technology, automotive, advertising and creative industries. We believe that the important work the Internet Security Research Group are doing with Let’s Encrypt is vital to the technical industry, and that they have delivered a real improvement to our community.
 > 
