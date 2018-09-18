@@ -6,6 +6,7 @@ typescript-syntax: true
 comments: true
 redirect_from:
 - /2017/10/29/eveythings-a-component-writing-domain-specific-reusable-angular-components-across-squads.html
+tags: [AngularJS, Front End]
 ---
 
 If you haven't heard about how Auto Trader works yet, we're structured into squads wherein each squad owns, maintains and develops within a particular domain to implement our business initiatives autonomously.  Within the retailer products division of Auto Trader are several squads working on the multi-faceted ‘Dealer Portal’ product to help vehicle dealers optimise their daily workings.  All of the disparate bits of technology to make Dealer Portal tick are encompassed under an umbrella project and common client/server technology stack we lovingly refer to as ‘Portal’. This post will discuss how we formed a strategy to maintain consistency across the Portal front-end.

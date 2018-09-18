@@ -2,6 +2,7 @@
 layout: post
 title:  "Developing Your Career"
 author: Mark Crossfield & Jim Stamp
+tags: [Career Development]
 ---
 Many development managers dread that one day one of their staff in a regular catch up will ask “What do I have to do to get promoted?”. This is daft really, because having staff that are motivated to develop themselves is a critical part of a high performing team. Of course, such a question could really be referring to a desire to be recognised—perhaps they don’t feel their title reflects their progress so far. Perhaps they are not satisfied with their salary. Or perhaps they are simply asking where their manager feels they should be concentrating their efforts to learn. This post is about what we have done recently at Auto Trader to help development managers work through this question with their staff.
 

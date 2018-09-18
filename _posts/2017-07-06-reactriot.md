@@ -2,6 +2,7 @@
 layout: post
 title:  "ReactRiot!"
 author: Nick Baker
+tags: [Hackathon, React]
 ---
 
 On the weekend 24-25<sup>th</sup> June, three developers from Auto Trader (Leon Pelech, David Carter and myself) participated in the first [ReactRiot](https://www.reactriot.com/) hackathon. It was a two-day event with teams competing from all over the globe.  

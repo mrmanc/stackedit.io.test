@@ -3,6 +3,7 @@ layout: post
 title: Using AWS Lambdas for data lake monitoring
 author: Ed Kent, Seema Anwer, Sien Figoureux, Sam Wedge, Paul Doran
 published: true
+tags: [AWS, Lambda, Monitoring, Data Platform]
 ---
 Here at Auto Trader, a core part of our strategy is to help improve the process of buying and selling vehicles through the provision of data driven intelligence. This data driven approach isn't just something we suggest to our customers; we also use data internally to drive our product development. For example, our product teams use KPI dashboards when adding new features or developing new products to ensure that they're making informed decisions. The data that drives these dashboards needs to be correct, and we need to know if anything goes wrong.
 

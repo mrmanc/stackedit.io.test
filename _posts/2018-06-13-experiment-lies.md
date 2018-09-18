@@ -3,6 +3,7 @@ layout: post
 title:  "Experiments and the 3 Lies we Pin on Them"
 author: Amy O' Leary
 excerpt_separator: <!--more-->
+tags: [Experiments]
 ---
  
 It is said that there are three types of lies: lies, damn lies and statistics. However,

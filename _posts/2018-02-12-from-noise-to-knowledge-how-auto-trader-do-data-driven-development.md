@@ -4,6 +4,7 @@ title: "From noise to knowledge – How Auto Trader do data driven development"
 date: 2018-02-12
 author: Amy O'Leary, Emina Cholich, Thomas Inman
 published: false
+tags: [Tech Talks, Data Driven Development]
 ---
 
 As the UK’s largest digital automotive marketplace, Auto Trader has never been short of data. Having a large audience, dealership customer base, and vehicle database, has the potential to give us unique and valuable insight into the market and our own products. Yet turning this data into insight that impacts our customers is never easy, and we'd like to share what we've learned along the way.

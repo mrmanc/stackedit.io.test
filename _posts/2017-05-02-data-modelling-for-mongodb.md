@@ -2,6 +2,7 @@
 layout: post
 title:  "Data Modelling for MongoDB"
 author: Alex Brown
+tags: [MongoDB, Shippr]
 ---
 
 This is the second of a two-part post looking at how your data model

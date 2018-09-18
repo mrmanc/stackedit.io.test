@@ -2,6 +2,7 @@
 layout: post
 title:  "Investigating Query Performance in MongoDB"
 author: Alex Brown
+tags: [MongoDB, Shippr]
 ---
 
 This is the first of a two-part post looking at how your data model

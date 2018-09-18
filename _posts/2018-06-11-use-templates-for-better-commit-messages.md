@@ -4,6 +4,7 @@ title: Use templates for better Git commit messages
 date: 2018-06-11
 author: John Harrison
 published: true
+tags: [Git]
 ---
 Commit messages are important. They are a means of communication with
 yourself and your team throughout the life of your codebase (remember

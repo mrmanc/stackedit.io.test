@@ -3,6 +3,7 @@ layout: post
 title:  "Recommendation Engine Hack"
 author: Amy O' Leary
 excerpt: Here's what we learned on the hackathon when we developed a fully functioning recommendation engine for vehicle adverts.
+tags: [Hackathon, Recommendation Engine]
 ---
 
 

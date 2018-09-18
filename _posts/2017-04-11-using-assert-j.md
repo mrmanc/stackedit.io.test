@@ -2,6 +2,7 @@
 layout: post
 title:  "Using AssertJ"
 author: Nick Baker & Paul Doran
+tags: [Testing, AssertJ, Java]
 ---
 
 When writing tests we aim to use Descriptive and Meaningful Phrases [(DAMP)](http://blog.jayfields.com/2006/05/dry-code-damp-dsls.html). This also reduces the time needed to understand the intent of the test. Making assertions read like the sentences we see every day is one way to achieve this. [AssertJ](http://joel-costigliola.github.io/assertj/) provides a comprehensive set of fluent assertions for Java.

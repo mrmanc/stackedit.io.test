@@ -4,6 +4,7 @@ title:  "Lead Developer 2017"
 author: Phil Armstrong
 redirect_from:
 - /2017/08/29/lead-developer-conference-2017.html
+tags: [Conferences]
 ---
 I was given the opportunity to attend the Lead Developer conference in London, which occurred on the 8th and 9th of June 2017 in the Queen Elizabeth Exhibition Centre in London. This was obviously exciting enough on its own, but it also coincided with the UK General Election, and the QEII Centre is situated right in the heart of Westminster, opposite the cathedral and behind the Supreme Court, just a stone's throw from the Houses of Parliament.
 

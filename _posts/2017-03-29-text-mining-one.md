@@ -2,6 +2,7 @@
 layout: post
 title:  "Text mining our customer calls"
 author: "Amy O' Leary, Thomas Inman, Tom Collingburn"
+tags: [Natural Language Analysis]
 ---
 
 At Auto Trader, our support staff receive up to 15,000 calls every two months. It's a huge operation to co-ordinate everyone involved and get an objective measurement for how we're doing, and what is making our customers tick this week. Currently, support managers go through a subset of recorded text from the calls we receive, manually classifying the emails in order to understand the volume of calls relating to each topic and identify changes needed to our products or our training. A few months ago, we formed a working group with a few other developers from around Auto Trader to see if we could solve the issue of text mining our calls for an objective and measurable understanding of our customers.

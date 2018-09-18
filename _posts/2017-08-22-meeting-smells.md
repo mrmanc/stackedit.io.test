@@ -2,6 +2,7 @@
 layout: post
 title:  "Meeting Smells and How To Avoid Them"
 author: Amy O' Leary
+tags: [Productivity]
 ---
 
 As developers, we’ve probably all heard of code smells, but did you know there are also meeting smells?

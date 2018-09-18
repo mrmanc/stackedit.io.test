@@ -2,6 +2,7 @@
 layout: post
 title:  "Monitorama Portland Conference"
 author: Mark Crossfield
+tags: [Conferences, Monitoring]
 ---
 Four of us were lucky enough recently to visit Portland Oregon to attend Monitorama, a conference geared towards (mostly) Open Source monitoring and related topics. This post is about what our key takeaways were, and the new themes we observed. I had previously attended an as yet unrepeated Monitorama EU in Berlin in 2013 and had found it to be a wonderfully inspiring set of talks.
 

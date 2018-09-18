@@ -4,6 +4,7 @@ title:  "Let's Encrypt at Scale"
 author: Lee Goodman
 excerpt_separator: <!--more-->
 comments: true
+tags: [Security]
 ---
 Enabling HTTPS on 3,000+ websites is a bit of a pain. But as we are now in the age of increasing online privacy, we 
 had to knuckle down and find a way to do it. We provide a platform for trade dealers to upload and advertise their 
