@@ -10,6 +10,10 @@ What do we mean by Projection Search? Almost all web applications need to provid
 
 This is usually modelled as a search in the underlying web service, the search returning a list of resource summaries. This summary contains a few fields and a link to the actual resource.
 
+Our recurring design headache is to decide _which fields are included in the summary object._
+
+<!--more-->
+
 ```json
 [
   {
@@ -24,10 +28,6 @@ This is usually modelled as a search in the underlying web service, the search r
   }
 ]
 ```
-
-Our recurring design headache is to decide _which fields are included in the summary object._
-
-<!--more-->
 
 We could provide the entire stock item, dropping the notion of a summary entirely. The disadvantage is one of load and performance - our application would have to extract and serialise a wealth of information from the database, most of which simply isn't needed. In addition, the sheer volume of data transmitted would in itself negatively impact performance.
 
