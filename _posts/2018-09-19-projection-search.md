@@ -151,4 +151,4 @@ Finally...
 
 A projection search enables an end user to explicitly declare which fields they wish to search for. This set of blog posts tells the story of how we implemented a stock projection search for our Stock service and how it was received by our customers.
 
-The service itself runs on Spring Boot with an Oracle back end. After some consideration we settled on a jOOQ based solution which uses a builder to create custom SQL queries as required by the incoming search request. As our story progresses, we will discuss the challenges of handling fields before moving on to increasingly joins.
+The service itself runs on Spring Boot with an Oracle back end. After some consideration we settled on a jOOQ based solution which uses a builder to create custom SQL queries as required by the incoming search request. As our story progresses, we will discuss the challenges of handling fields before moving on to increasingly complex joins.
