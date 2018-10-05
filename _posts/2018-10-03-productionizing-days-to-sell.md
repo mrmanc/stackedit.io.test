@@ -65,7 +65,7 @@ Porting the model in this way gave a number of advantages:
 * Integration with Airflow allows us to use our existing monitoring and alerting approach
 * An extra stage of code review when passing the model between data scientists and data engineers helps to share understanding about the model among our team
 
-By comparing the training data along with the predictions from the fitted model, were verified that the ported Spark jobs were equivalent to the original notebooks.
+By comparing the training data along with the predictions from the fitted model, we verified that the ported Spark jobs were equivalent to the original notebooks.
 
 #### DAG scheduling
 Airflow DAGs (Directed Acyclic Graphs) let us specify the relationships and dependencies between tasks, so for example, we can ensure the task to generate the training data won't be submitted until the data it depends on (e.g. historic advert data and taxonomy data) are both in place.
