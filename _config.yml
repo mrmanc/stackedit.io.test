@@ -8,6 +8,9 @@ timezone: Europe/London
 markdown: kramdown
 kramdown:
   input: GFM
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 plugins:
   - jekyll-paginate
