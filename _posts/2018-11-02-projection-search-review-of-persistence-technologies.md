@@ -97,7 +97,7 @@ This approach works well, but there are drawbacks.
 
 Firstly to incorporate jOOQ into the project we need to add an extra stage to the build cycle to compile the schema objects. This is a one-off task, but it is a little tricky and it does ramp up the learning curve.
 
-Having committed to jOOQ and started development, writing DAOs in jOOQ is a little more involved. Developers will need to code the mappings between domain objects and the jooQ ActiveRecord objects generated from your schema. This can be coded manually or using a mapping framework such as [Orika](https://orika-mapper.github.io/orika-docs/). Either way, this will seem tedious to a seasoned Hibernate developer. It is not necessarily a bad thing. We are much less likely to certain kinds of complexities common in Hibernate applications.
+Having committed to jOOQ and started development, writing DAOs in jOOQ is a little more involved. Developers will need to code the mappings between domain objects and the jooQ ActiveRecord objects generated from your schema. This can be coded manually or using a mapping framework such as [Orika](https://orika-mapper.github.io/orika-docs/). Either way, this will seem tedious to a seasoned Hibernate developer. It is not necessarily a bad thing. We are much less likely to encounter certain kinds of complexities common in Hibernate applications.
 
 Comparisons with Hibernate aside, SQL is a much better choice for a projection search, and jOOQ, which allows us to build SQL dynamically in a type-safe fashion is an obviously good choice here.
 
