@@ -1,6 +1,4 @@
 _site
 .sass-cache
-.idea/workspace.xml
-.idea/copyright
-.idea/dictionaries/*.xml
+.idea
 *.DS_Store
