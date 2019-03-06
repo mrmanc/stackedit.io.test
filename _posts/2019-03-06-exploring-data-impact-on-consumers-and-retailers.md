@@ -13,7 +13,7 @@ the buyer's and seller's experience.
 We're going to tell our story through our hypothetical car buyer, Charlie. Like many other people today, Charlie seems 
 to do everything online, including buying a car.
 
-As it happens, Charlie has finally decided to buy a car. They visit the [Auto Trader](https://wwww.autotrader.co.uk) 
+As it happens, Charlie has finally decided to buy a car. They visit the [Auto Trader](https://www.autotrader.co.uk) 
 website and, after a few clicks, are already looking at some Audi A3 TFSIs. Perfect for the daily commute to work!
 
 <img src="{{ site.github.url }}/images/2019-03-06/audi-search-results-high-low.png" width="70%" class="u-p-10 u-center-img" alt="Search results">
