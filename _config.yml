@@ -39,8 +39,14 @@ disqus_subdomain: http-engineering-autotrader-co-uk
 # start jekyll-seo-tag configuration
 logo: /assets/images/at-chevron_4096x4096.png
 defaults:
-  - scope:
-      path: ""
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
     values:
       image: /assets/images/at-chevron_4096x4096.png
+  -
+    scope:
+      path: ""
+    values:
+      comments: true
 # end jekyll-seo-tag configuration

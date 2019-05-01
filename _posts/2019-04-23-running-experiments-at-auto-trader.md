@@ -5,7 +5,6 @@ author: John Payne & Rob Chisholm
 tags: [Experiments]
 redirect_from:
 - /2019/04/18/running-experiments-at-auto-trader.html
-comments: true
 ---
 
 For a number of years, we A/B tested new [www.autotrader.co.uk](https://www.autotrader.co.uk/) features on a separate production environment.  This allowed us to validate that new features had the desired effect, and didn’t negatively impact any of our key indicators with a reduced slice of our users.  But, it required three deployments of our largest web application and was slow and clunky to set up.  We have since introduced a new A/B test platform which allows us to be more agile and respond to change more quickly.  We use the data collated from these tests to drive our next generation features for the site. Read on to find out how we used to test features and why we made this change.

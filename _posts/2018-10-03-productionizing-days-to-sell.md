@@ -4,7 +4,6 @@ title: How we used Databricks notebooks, MLeap and Kubernetes to productionize S
 author: Edward Kent
 publish: true
 tags: [Data Platform, Conferences, Machine Learning, Databricks, Kubernetes, AWS, Spark]
-comments: true
 ---
 
 Machine learning (ML) models are nothing new to us. We've used them to power products such as our [used car valuations](https://www.autotrader.co.uk/car-valuation) and [Price Indicators](https://trade.autotrader.co.uk/articles/price-indicator/). The processes involved in training and serving these models are complex, involving code written by both data scientists and developers in a variety of languages including Python, Java and R. Serving predictions from these models in real time typically involves a custom application to extract the coefficients from the saved model, and apply them to an input request. 

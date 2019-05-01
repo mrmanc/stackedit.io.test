@@ -3,7 +3,6 @@ layout: post
 title: "Everything's a component—writing domain specific, re-usable Angular components across squads"
 author: Craig Shipton
 typescript-syntax: true
-comments: true
 redirect_from:
 - /2017/10/29/eveythings-a-component-writing-domain-specific-reusable-angular-components-across-squads.html
 tags: [AngularJS, Front End]
