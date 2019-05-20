@@ -50,7 +50,7 @@ script-src 'self' https://js.stripe.com https://www.google.com/recaptcha/api.js 
 report-uri https://autotrader.report-uri.com/r/t/csp/reportOnly
 ```
 
-The intention of this article is to focus on our implementation, so we won’t got into the full details of each directive within a CSP. However, from our current directive you can see that we only allow any content to be loaded from either ourselves, Stripe, or Google (used for analytics and reCAPTCHA functionality). For further information on the directives themselves see the [CSP Reference](https://content-security-policy.com/).
+The intention of this article is to focus on our implementation, so we won’t go into the full details of each directive within a CSP. However, from our current directive you can see that we only allow any content to be loaded from either ourselves, Stripe, or Google (used for analytics and reCAPTCHA functionality). For further information on the directives themselves see the [CSP Reference](https://content-security-policy.com/).
 
 ## Restructuring our code
 
