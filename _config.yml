@@ -20,7 +20,7 @@ plugins:
   - jekyll-redirect-from
   - jekyll-remote-theme
 
-remote_theme: autotraderuk/autotrader-blog-jekyll-theme@v0.5.6
+remote_theme: autotraderuk/autotrader-blog-jekyll-theme@v0.6.0
 
 paginate: 20
 paginate_path: "/page-:num/"
