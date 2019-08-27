@@ -24,7 +24,7 @@ A foray into Google turned up a few possibilities, the most interesting being
   quite a lot of dependencies and does much more than we needed. 
   Interestingly, it is integrated with Spring Boot using the [Spring Cloud Netflix](https://cloud.spring.io/spring-cloud-netflix/) 
   package, although that wasn't a consideration for our Dropwizard application.
-* [Resilience4j](https://github.com/resilience4j/resilience4j) is a lightweight fault tolerant library inspired by 
+* [Resilience4j](https://github.com/resilience4j/resilience4j) is a lightweight fault tolerant library inspired by 
   [Hystrix](https://github.com/Netflix/hystrix/wiki) but designed for Java 8 and functional programming. 
   At first glance, Resilience4j looked new but it is actually a new name for the more mature Javaslang-Circuitbreaker.
   It is built on top of Vavr (formally Javaslang), a functional language extension to Java 8.
@@ -105,10 +105,10 @@ configuration you can specify one, otherwise you will get a circuit breaker that
 when creating the registry:
 
 ```java
-// Get a CircuitBreaker from the CircuitBreakerRegistry with configuration that you when creating the registry
+// Get a CircuitBreaker from the CircuitBreakerRegistry with configuration that you used when creating the registry
 CircuitBreaker customCircuitBreaker1 = circuitBreakerRegistry.circuitBreaker("custom-circuit-breaker-1");
 
-// Get another CircuitBreaker from the CircuitBreakerRegistry with configuration that you when creating the registry
+// Get another CircuitBreaker from the CircuitBreakerRegistry with configuration that you used when creating the registry
 CircuitBreaker customCircuitBreaker2 = circuitBreakerRegistry.circuitBreaker("custom-circuit-breaker-2");
 
 // Get a CircuitBreaker from the CircuitBreakerRegistry using a different custom configuration
@@ -131,11 +131,11 @@ gives some good examples of how the modules can be used:
 * A bulkhead
 * A cache
 * Adding metrics
-* Consuming CircuitBreaker, RateLimiter, Cache and Retry events
+* Consuming CircuitBreaker, RateLimiter, Cache and Retry events
 
 ## If You’re Interested
 Find out more at:
 
 GitHub page: [https://github.com/resilience4j/resilience4j](https://github.com/resilience4j/resilience4j)
 
-Very good documentation page: [http://resilience4j.github.io/resilience4j](http://resilience4j.github.io/resilience4j)
+Very good documentation: [https://resilience4j.readme.io/docs](https://resilience4j.readme.io/docs)
