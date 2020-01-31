@@ -1,9 +1,14 @@
 ---
+title: Stubbr - a NodeJS HTTP stubbing server
+date: 2015-12-16 00:00:00 +00:00
+tags:
+- NodeJS
+- Testing
+- REST
 layout: post
-title:  "Stubbr - a NodeJS HTTP stubbing server"
 author: Craig Shipton
-tags: [NodeJS, Testing, REST]
 ---
+
 When it comes to writing integration tests, constructing a test sandbox that abstracts away every HTTP service dependency lets us concentrate on testing the interactions within our own app in isolation.  I've found mock http servers to be an invaluable tool for achieving this; this post is to discuss the mock http server that we created to serve this need in a greenfield [AngularJS](https://angularjs.org/) app integration tested with the [NodeJS](https://nodejs.org/)-based [Protractor](http://www.protractortest.org/) test framework.
 
 

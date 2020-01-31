@@ -1,10 +1,13 @@
 ---
+title: Let's Encrypt at Scale
+date: 2018-09-04 00:00:00 +01:00
+tags:
+- Security
 layout: post
-title:  "Let's Encrypt at Scale"
 author: Lee Goodman
-excerpt_separator: <!--more-->
-tags: [Security]
+excerpt_separator: "<!--more-->"
 ---
+
 Enabling HTTPS on 3,000+ websites is a bit of a pain. But as we are now in the age of increasing online privacy, we 
 had to knuckle down and find a way to do it. We provide a platform for trade dealers to upload and advertise their 
 stock online. As an extension of this, we offer a product that allows customers to host a private website using this

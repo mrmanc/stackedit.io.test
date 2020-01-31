@@ -1,9 +1,16 @@
 ---
-layout: post
 title: Keeping the engine running efficiently event—March 7th
+date: 2019-02-18 00:00:00 +00:00
+tags:
+- Tech Talk
+- Release Management
+- Cloud Networking
+- Containers
+- Pager Duty
+layout: post
 author: Dave Whyte
-tags: [Tech Talk, Release Management, Cloud Networking, Containers, Pager Duty]
 ---
+
 Building on our previous Open Evening of tech talks, we want to showcase what is keeping the Auto Trader engine running efficiently. Our speakers come from various operational disciplines and are all keen to give us an insight into what they are working on.
 
 [Register here](https://www.eventbrite.co.uk/e/keeping-the-engine-running-efficiently-infrastructure-tech-talks-auto-trader-uk-tickets-56629127244) to join us at the Auto Trader offices in Manchester at 6pm—food and drinks will be provided.

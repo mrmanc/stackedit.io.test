@@ -1,10 +1,13 @@
 ---
-layout: post
 title: A Boot Camp Career Reboot
+date: 2018-06-21 00:00:00 +01:00
+tags:
+- Career Development
+- Learning
+layout: post
 author: Joe Mulvey
-published: true
-tags: [Career Development, Learning]
 ---
+
 [Software is eating the world](https://a16z.com/2016/08/20/why-software-is-eating-the-world/) say the pundits, and consequently companies like Auto Trader are hungry for developers. The excess of demand over supply has led to initiatives such as [TechReturners](https://techreturners.com/) and our own recent Returners Discovery Day, which aim to lure back those who have left the industry. But there is another source of coding talent which has emerged in recent years: the coding boot camp. Can a few months of coding practice be enough to prepare someone with little or no experience of coding for a career as a developer? Even someone like me?
 
 <img src="{{ site.github.url }}/images/2018-06-21/northcoders.jpg" width="70%" class="u-p-10 u-center-img" alt="Northcoders - Manchester Coding Boot Camp">

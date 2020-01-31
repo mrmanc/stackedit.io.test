@@ -1,8 +1,13 @@
 ---
-layout: post
 title: Configurable custom dimensions for AngularJS apps
-category: development
-tags: [AngularJS, Google Analytics, Open Source]
+date: 2016-01-08 00:00:00 +00:00
+categories:
+- development
+tags:
+- AngularJS
+- Google Analytics
+- Open Source
+layout: post
 author: Thomas Inman
 ---
 

@@ -1,9 +1,14 @@
 ---
+title: Let's have a conversation
+date: 2017-04-06 00:00:00 +01:00
+tags:
+- Conversational
+- Alexa
+- Hackathon
 layout: post
-title:  "Let's have a conversation"
 author: Dave Buckthorpe
-tags: [Conversational, Alexa, Hackathon]
 ---
+
 At the Auto Trader Hack day last year we built a prototype skill to read back stats for a retailer's stock via Alexa Voice Service API using the Amazon Echo Dot. We wanted the user to be able to ask for information about a vehicle, but also take some sort of action after finding out information.  The initial goal was to find out how we could do this and understand what sort of challenges and limitations that we might present.  This is my perspective of the journey before the hack and how we got to showcasing the prototype.
 
 <img src="{{ site.github.url }}/images/2017-04-06/amazon-echo-family.jpg" alt="Amazon Echo and Echo Dot"  width="300" class="u-p-10 u-center-img" />

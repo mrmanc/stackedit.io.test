@@ -1,10 +1,12 @@
 ---
+title: Auto Trader Engineering Blog
+date: 2015-12-01 00:00:00 +00:00
+tags:
+- Engineering Blog
 layout: post
-title:  "Auto Trader Engineering Blog"
-date:   2015-12-01
 author: Mark Crossfield
-tags: [Engineering Blog]
 ---
+
 This is a test of StackEdit and how it pushes to GitHub.
 
 ![Photo of Auto Trader’s London Offices]({{ site.github.url }}/images/2015-12-15/auto-trader-london-office.jpg)

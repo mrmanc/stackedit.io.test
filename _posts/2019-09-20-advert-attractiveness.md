@@ -1,9 +1,13 @@
 ---
-layout: post
 title: Using Machine Learning to estimate how attractive adverts are to car buyers
+date: 2019-09-20 00:00:00 +01:00
+tags:
+- Machine Learning
+- Data Platform
+- Data Science
+- Search
+layout: post
 author: Jenny Burrow, Angelos Georgiadis and Antreas Kouroupides
-published: true
-tags: [Machine Learning, Data Platform, Data Science, Search]
 ---
 
 Here at Auto Trader we are always striving to improve the experience for both our buyers and sellers. In this blog we describe how we have used machine learning to estimate how attractive different adverts are to car buyers, in order to improve how we select which adverts to display in our search results. We elaborate on how we followed the Discovery -> Production process discussed [previously](https://engineering.autotrader.co.uk/2018/10/03/productionizing-days-to-sell.html) to deliver the project, and the lessons we learnt along the way!

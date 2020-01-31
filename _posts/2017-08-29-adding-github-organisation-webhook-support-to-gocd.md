@@ -1,9 +1,14 @@
---- 
-layout: post 
-title: Adding GitHub Organisation Webhook Support to GoCD 
-author: Stephen Murby
-tags: [GoCD, GitHub, Open Source]
 ---
+title: Adding GitHub Organisation Webhook Support to GoCD
+date: 2017-08-29 00:00:00 +01:00
+tags:
+- GoCD
+- GitHub
+- Open Source
+layout: post
+author: Stephen Murby
+---
+
 The bulk of our active codebases, over time, have made their home our GitHub Enterprise server. We also have a [GoCD](https://www.gocd.org/) (continuous delivery pipeline) server that is polling these repositories to work out if it has something to do. The upshot of this is that, every minute, for each of these codebases, GoCD polls Github for changes. This consumes a lot of unneccessary CPU cycles (especially because some of these sources haven't been updated recently) and is one of the reasons our GoCD server is slower than we'd like it to be. This blog post will talk about how we improved this and my experiences while contributing code back to the open source community.
 
 We had an appetite to trigger our pipeline builds instead by a GitHub push notification. However, the only way of doing this was to use the [GitHub GoCD service integration](https://github.com/github/github-services/blob/master/docs/gocd), secured with basic authentication for each repository. To do this across 2,500 pipelines we thought would be unmanageable as each team would have to remember a) to do this for each of their projects and b) enter their own credentials.

@@ -1,9 +1,15 @@
 ---
-layout: post
 title: 'Lessons from the data lake, part 1: Architectural decisions'
+date: 2018-11-21 00:00:00 +00:00
+tags:
+- Data Platform
+- AWS
+- Spark
+- Avro
+layout: post
 author: Paul Doran, Sien Figoureux, Joe Mulvey, David Whittingham
-tags: [Data Platform, AWS, Spark, Avro]
 ---
+
 It's eighteen months since the inception of the Auto Trader Data Platform, a cloud-based storage lake and computing solution designed to unlock the power of Auto Trader's huge and growing data set of vehicle transactions in the UK. It's time to ask, what have we learnt, what have we changed, and did we deliver what we intended?
 
 <img src="{{ site.github.url }}/images/2018-11-21/data-lake-monster.png" width="70%" class="u-p-10 u-center-img" alt="Data lake monster">

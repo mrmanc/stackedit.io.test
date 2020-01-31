@@ -1,8 +1,11 @@
 ---
+title: Text Mining Our Dealer Reviews
+date: 2017-10-10 00:00:00 +01:00
+tags:
+- Natural Language Analysis
+- Reviews
 layout: post
-title:  "Text Mining Our Dealer Reviews"
 author: Amy O' Leary, Karim Essawi
-tags: [Natural Language Analysis, Reviews]
 ---
 
 At Auto Trader, knowing our customer is very important to us, and we invest a lot in researching what makes them tick. [In previous posts]({{ site.github.url }}{% post_url 2017-03-30-text-mining-two %}), we described how we used text mining to understand our customers through our customer support descriptions. We have another very valuable source of data: our dealer reviews.

@@ -1,11 +1,14 @@
 ---
+title: Recommendation Engine Hack
+date: 2017-01-15 00:00:00 +00:00
+tags:
+- Hackathon
+- Recommendation Engine
 layout: post
-title:  "Recommendation Engine Hack"
 author: Amy O' Leary
-excerpt: Here's what we learned on the hackathon when we developed a fully functioning recommendation engine for vehicle adverts.
-tags: [Hackathon, Recommendation Engine]
+excerpt: Here's what we learned on the hackathon when we developed a fully functioning
+  recommendation engine for vehicle adverts.
 ---
-
 
 Creating a Recommendations Engine
 -----------

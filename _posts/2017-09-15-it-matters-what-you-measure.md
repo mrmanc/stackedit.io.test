@@ -1,9 +1,12 @@
 ---
+title: It matters what you measure
+date: 2017-09-15 00:00:00 +01:00
+tags:
+- Deployment
 layout: post
-title:  "It matters what you measure"
 author: Matt Beaney
-tags: [Deployment]
 ---
+
 It’s not enough to simply measure things, you need to measure the _right_ things! When I first introduced release reporting at Auto Trader I based the success criteria on the things the business cared about at the time.  It was very basic and a release was deemed to have ‘failed’ if it was either backed out or needed to be fixed. As the way we measured success evolved we noticed how this didn’t really represent the direction we wanted to follow.
 
 Our original success/failure categories soon became nine categories of ‘success’ and ‘failure’, with categories 1–3 were considered successful and 4–9 to have failed.

@@ -1,10 +1,18 @@
 ---
+title: Cultural Learnings of Data Academy for Make Benefit Glorious Company of Auto
+  Trader&#58; or how we&apos;re promoting data literacy.
+date: 2019-03-11 00:00:00 +00:00
+tags:
+- Machine Learning
+- Artificial Intelligence
+- Culture Change
+- Engagement
+- Data Platform
 layout: post
-title: 'Cultural Learnings of Data Academy for Make Benefit Glorious Company of Auto Trader&#58; or how we&apos;re promoting data literacy.'
 author: Angelos Georgiadis, Jim Stamp (and Borat)
-tags: [Machine Learning, Artificial Intelligence, Culture Change, Engagement, Data Platform]
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 At Auto Trader, we are attempting to democratise our data.
 
 We put together a data engineering team, signed up to AWS, built a data platform, replaced all the components at least once because they weren't up to scratch and, having done all that, finally realised we needed some people to use it.

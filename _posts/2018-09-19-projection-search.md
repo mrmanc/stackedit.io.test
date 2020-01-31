@@ -1,9 +1,12 @@
 ---
-layout: post
 title: 'Projection Search: Introduction'
+date: 2018-09-19 00:00:00 +01:00
+tags:
+- REST
+- Search
+layout: post
 author: Neil McLaughlin
-excerpt_separator: <!--more-->
-tags: [REST, Search]
+excerpt_separator: "<!--more-->"
 ---
 
 What do we mean by Projection Search? Almost all web applications need to provide their user with a search, providing a summarised view of their data. An email inbox is a good example of this. Within AutoTrader, we need the ability to list a user's vehicles and adverts.   

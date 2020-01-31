@@ -1,10 +1,14 @@
 ---
+title: Customisable Logging on Kubernetes
+date: 2018-07-15 00:00:00 +01:00
+tags:
+- Logging
+- Kubernetes
 layout: post
-title:  "Customisable Logging on Kubernetes"
 author: Mike Eves
-excerpt_separator: <!--more-->
-tags: [Logging, Kubernetes]
+excerpt_separator: "<!--more-->"
 ---
+
 Centralised logging has been a part of Auto Trader for the best part of eight years—the last three of which we've adopted Elasticsearch as our choice of software.
 
 From application logs to system logs, monitoring logs to security logs; we try our best to provide a central location for users to log what they care about and we try to make it as easy as possible to do so. This is true for our current platform and we aim to make it true for our next generation platform, running Kubernetes on Google Cloud.

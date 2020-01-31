@@ -1,10 +1,14 @@
 ---
+title: Speaking about Continuous Deployment at Pink18
+date: 2018-07-09 00:00:00 +01:00
+tags:
+- Conferences
+- Deployment
 layout: post
-title:  "Speaking about Continuous Deployment at Pink18"
 author: Matt Beaney
-excerpt_separator: <!--more-->  
-tags: [Conferences, Deployment]
+excerpt_separator: "<!--more-->"
 ---
+
 Last year Dave Whyte and I were lucky enough to be invited to speak at [Pink18](https://www.pinkelephant.com/en-ca/Pink18/Home) in Orlando, Florida.  The Pink Elephant conference is the worlds largest and most prestigious IT Service Management conference, having run for over two decades.  
 
 This years theme was Integrated Service Management, which is about aligning traditional Service Management processes with DevOps and Lean/Agile.

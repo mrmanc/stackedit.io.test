@@ -1,9 +1,13 @@
 ---
-layout: post
 title: Sending Spark logs to ELK using logstash-gelf
+date: 2018-09-10 00:00:00 +01:00
+tags:
+- Logging
+- Spark
+layout: post
 author: Karim Essawi
-tags: [Logging, Spark]
 ---
+
 An important part of any application is its underlying log system. Logs are fundamental for debugging and traceability, but can also be useful for further analysis and even in areas such as business intelligence and key performance indicators (KPIs). At Auto Trader, we emphasise the importance of building a robust application logging system that can be integrated into our [ELK](https://www.elastic.co/elk-stack) stack that serves as a centralised log store.
 
 ### What Is Spark?

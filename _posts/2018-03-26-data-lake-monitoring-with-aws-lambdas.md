@@ -1,10 +1,15 @@
 ---
-layout: post
 title: Using AWS Lambdas for data lake monitoring
+date: 2018-03-26 00:00:00 +01:00
+tags:
+- AWS
+- Lambda
+- Monitoring
+- Data Platform
+layout: post
 author: Ed Kent, Seema Anwer, Sien Figoureux, Sam Wedge, Paul Doran
-published: true
-tags: [AWS, Lambda, Monitoring, Data Platform]
 ---
+
 Here at Auto Trader, a core part of our strategy is to help improve the process of buying and selling vehicles through the provision of data driven intelligence. This data driven approach isn't just something we suggest to our customers; we also use data internally to drive our product development. For example, our product teams use KPI dashboards when adding new features or developing new products to ensure that they're making informed decisions. The data that drives these dashboards needs to be correct, and we need to know if anything goes wrong.
 
 Historically, the KPI dashboards would be manually curated, a time-consuming process that's prone to human error. As we develop our [data lake platform](http://engineering.autotrader.co.uk/2017/10/03/supporting-building-a-data-lake.html), we've begun to automate the production of the data that powers these dashboards. The data lake splits data across zones; each zone contains data that has undergone a different level of processing. In our implementation, the data powering the KPI dashboards is written to the refined zone, alongside other data that has undergone deduplication, joining, and aggregation. This typically happens on a scheduled basis, i.e. daily, weekly, etc. Given the importance of this data, we decided to monitor the refined zone to become aware of issues as soon as possible.

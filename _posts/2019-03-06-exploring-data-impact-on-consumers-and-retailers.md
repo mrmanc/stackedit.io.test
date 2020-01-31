@@ -1,9 +1,16 @@
 ---
-layout: post
 title: 'How buyers are affected by an AI-driven product: Price Indicator'
+date: 2019-03-06 00:00:00 +00:00
+tags:
+- Machine Learning
+- Artificial Intelligence
+- Culture Change
+- Engagement
+- Data Platform
+layout: post
 author: Angelos Georgiadis, Jim Stamp
-tags: [Machine Learning, Artificial Intelligence, Culture Change, Engagement, Data Platform]
 ---
+
 Artificial intelligence (AI), is the ability of machines to learn from data. Often, this data is derived from human 
 interactions. In this blog, we will explore how Auto Trader has used AI and Machine Learning (ML) to directly influence 
 the buyer's and seller's experience.

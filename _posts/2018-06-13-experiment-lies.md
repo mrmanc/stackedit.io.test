@@ -1,11 +1,13 @@
 ---
+title: Experiments and the 3 Lies we Pin on Them
+date: 2018-06-13 00:00:00 +01:00
+tags:
+- Experiments
 layout: post
-title:  "Experiments and the 3 Lies we Pin on Them"
 author: Amy O' Leary
-excerpt_separator: <!--more-->
-tags: [Experiments]
+excerpt_separator: "<!--more-->"
 ---
- 
+
 It is said that there are three types of lies: lies, damn lies and statistics. However,
 you don't need a degree in statistics to be able to recognize these lies, and redesign your
 experiment to tell the truth.

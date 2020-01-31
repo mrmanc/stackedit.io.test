@@ -1,52 +1,49 @@
-# Site settings
+---
 title: Auto Trader Engineering Blog
-description: > # this means to ignore newlines until "baseurl:"
-  A look at the interesting parts of the engineering behind Auto Trader.
 timezone: Europe/London
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+  values:
+    image: "/assets/images/at-chevron_4096x4096.png"
+- scope:
+    path: ''
+  values:
+    comments: true
+description: 'A look at the interesting parts of the engineering behind Auto Trader.
 
-# Build settings
+'
 markdown: kramdown
 kramdown:
   input: GFM
 exclude:
-  - Gemfile
-  - Gemfile.lock
-
+- Gemfile
+- Gemfile.lock
 plugins:
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-redirect-from
-  - jekyll-remote-theme
-
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-redirect-from
+- jekyll-remote-theme
 remote_theme: autotraderuk/autotrader-blog-jekyll-theme@v0.6.1
-
 paginate: 20
 paginate_path: "/page-:num/"
 google_analytics_tracking_id: UA-20049363-3
 githubdotcom:
   username: autotraderuk
 twitter:
-  username: autotraderlife # This is used by jekyll-seo-tag
+  username: autotraderlife
 facebook:
   username: autotraderlife
-
 include_repo_ribbon: false
 include_comments: true
 disqus_subdomain: http-engineering-autotrader-co-uk
-
-# start jekyll-seo-tag configuration
-logo: /assets/images/at-chevron_4096x4096.png
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      image: /assets/images/at-chevron_4096x4096.png
-  -
-    scope:
-      path: ""
-    values:
-      comments: true
-# end jekyll-seo-tag configuration
+logo: "/assets/images/at-chevron_4096x4096.png"

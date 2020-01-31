@@ -1,8 +1,12 @@
 ---
-layout: post
 title: Delve into our data universe event—November 21st
+date: 2018-11-12 00:00:00 +00:00
+tags:
+- Tech Talk
+- Data Platform
+- Spark
+layout: post
 author: Elly Linnegar
-tags: [Tech Talk, Data Platform, Spark]
 ---
 
 Building on our previous Open Evening of tech talks, we want to delve further into our data universe. What good is having all this data if our people can’t easily access and glean insight from it? Our speakers come from the disciplines of Data Analysis, Data Science and Data Engineering. What brings us all together is our data platform. Find out about the rewards and challenges of delivering on Auto Trader's self-serve data mission.

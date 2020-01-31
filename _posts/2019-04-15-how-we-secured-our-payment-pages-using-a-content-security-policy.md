@@ -1,11 +1,14 @@
 ---
-layout: post
 title: How we secured our payment pages using a Content Security Policy
+date: 2019-04-15 00:00:00 +01:00
+tags:
+- Security
+layout: post
 author: Paul Wragg
-tags: [Security]
 redirect_from:
-- /2019/04/01/how-we-secured-our-payment-pages-using-a-content-security-policy.html
+- "/2019/04/01/how-we-secured-our-payment-pages-using-a-content-security-policy.html"
 ---
+
 In the Private & Home Trader Advertising squad we take payments for advertisements through our in-journey payment pages. Previously our payments were handled by a re-direct to a third party payment provider. When we decided to bring the payment pages into our journey, using [Stripe](https://stripe.com/) elements (Stripe components embedded within our pages), it was vital that we secured our payment pages to eliminate any risk from malicious scripts or injection attacks. Here is how we did it.
 
 ## Why was there a security risk?

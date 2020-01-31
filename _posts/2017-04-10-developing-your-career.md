@@ -1,9 +1,12 @@
 ---
+title: Developing Your Career
+date: 2017-04-10 00:00:00 +01:00
+tags:
+- Career Development
 layout: post
-title:  "Developing Your Career"
 author: Mark Crossfield & Jim Stamp
-tags: [Career Development]
 ---
+
 Many development managers dread that one day one of their staff in a regular catch up will ask “What do I have to do to get promoted?”. This is daft really, because having staff that are motivated to develop themselves is a critical part of a high performing team. Of course, such a question could really be referring to a desire to be recognised—perhaps they don’t feel their title reflects their progress so far. Perhaps they are not satisfied with their salary. Or perhaps they are simply asking where their manager feels they should be concentrating their efforts to learn. This post is about what we have done recently at Auto Trader to help development managers work through this question with their staff.
 
 Currently our developer job titles are prefixed with Apprentice, Graduate, Professional, Senior or Principal. Many years ago we moved away from standardised frameworks and over time it’s fair to say that the shared understanding of what the distinction is between roles has eroded. We have attempted to address this a number of times but these exercises rarely got beyond the post-its on the wall stage—as a large group we struggled to come to a consensus. Perhaps we had too many people involved, perhaps we tried to define them all at once, perhaps we weren’t convinced we were improving the situation.

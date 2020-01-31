@@ -1,8 +1,11 @@
 ---
-layout: post
 title: How we use Architectural Decision Records (ADRs) on Data Engineering
+date: 2019-03-20 00:00:00 +00:00
+tags:
+- Data Platform
+- Productivity
+layout: post
 author: Paul Doran
-tags: [Data Platform, Productivity]
 ---
 
 When I joined Data Engineering over a year ago they had already adopted Architectural Decision Records (ADRs) to document architectural decisions made whilst building Auto Trader's Data Platform. ADRs are listed in ThoughtWorks' [Technology Radar](https://www.thoughtworks.com/radar/techniques/lightweight-architecture-decision-records) as a technique to adopt; Data Engineering was the first team I've worked on to use them. They have allowed us to capture the context and consequences of the decisions we make; in a way that provides transparency and allows the whole team, and wider organisation, to contribute.

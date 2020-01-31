@@ -1,9 +1,12 @@
 ---
-layout: post
 title: Greater Manchester College Hack 2018
+date: 2018-10-23 00:00:00 +01:00
+tags:
+- Hackathon
+layout: post
 author: Philippa Main, Chloe Hodgson, Hafeez Mushtaq
-tags: Hackathon
 ---
+
 The Greater Manchester College Hack is open to anyone at college in
 the area who wishes to develop their digital skills by participating
 in challenges set by local tech companies.

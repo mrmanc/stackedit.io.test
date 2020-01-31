@@ -1,9 +1,14 @@
 ---
+title: Meaningful Code Using Types
+date: 2016-05-12 00:00:00 +01:00
+tags:
+- Java
+- Code Craft
 layout: post
-title:  "Meaningful Code Using Types"
 author: Michael Hatch
-excerpt: Crafting meaningful code is vital to the long term success of a project. Here I'll discuss how we can use types to help us to acheive this goal. I'll also go through a few helpful IntelliJ refactors that help introduce our types.
-tags: [Java, Code Craft]
+excerpt: Crafting meaningful code is vital to the long term success of a project.
+  Here I'll discuss how we can use types to help us to acheive this goal. I'll also
+  go through a few helpful IntelliJ refactors that help introduce our types.
 ---
 
 A few months ago I travelled to London with a group of colleagues for the JAX London conference. We saw many talks on a wide range of topics from DevOps to Java 8.

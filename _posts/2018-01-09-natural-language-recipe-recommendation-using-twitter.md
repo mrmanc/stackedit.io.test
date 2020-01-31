@@ -1,8 +1,12 @@
 ---
+title: How we (almost) completed a natural language recipe recommendation engine using
+  Twitter in a 24-hour hackathon
+date: 2018-01-09 00:00:00 +00:00
+tags:
+- Hackathon
+- Hack Manchester
 layout: post
-title: "How we (almost) completed a natural language recipe recommendation engine using Twitter in a 24-hour hackathon"
 author: Andy May, Leon Pelech (@LeonPelech), Phillip Taylor, Simon Dudley (@SiLaDu)
-tags: [Hackathon, Hack Manchester]
 ---
 
 On 28th October we four Java developers attended [HAC100's Hack Manchester event](https://www.hac100.com/event/hack-mcr-17/). 

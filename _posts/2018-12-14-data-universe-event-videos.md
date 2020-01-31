@@ -1,9 +1,16 @@
 ---
-layout: post
 title: Data Universe event videos
+date: 2018-12-14 00:00:00 +00:00
+tags:
+- Tech Talk
+- Data Platform
+- Spark
+- Airflow
+- Data Science
+layout: post
 author: Elly Linnegar
-tags: [Tech Talk, Data Platform, Spark, Airflow, Data Science]
 ---
+
 It's been a few weeks now since our last public tech talks event---a big thank you to all who came. Thanks also for all the feedback we received on the evening. We plan to use this to help shape our next event. For anyone who missed the event, please find the videos of all the talks below. Watch this space for details of our next event in the new year.
 
 ## The videos

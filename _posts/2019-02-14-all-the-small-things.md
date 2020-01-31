@@ -1,8 +1,11 @@
 ---
-layout: post
 title: All The Small Things
+date: 2019-02-14 00:00:00 +00:00
+tags:
+- Infrastructure
+- Learning
+layout: post
 author: Shaun Creary
-tags: [Infrastructure, Learning]
 ---
 
 Operations Engineers at Auto Trader play a critical role responding to service impacting issues and quickly restoring service. Our web applications run on Linux and Windows servers and are hosted on VMware, private and public clouds. We are responsible for monitoring these applications and responding to system generated alerts and incidents whilst performing routine trend analysis. In previous years the Operations Engineer discipline followed a daily task timetable which included lots of manual jobs. This is very inefficient and can be impacted by human error. Over the past year, the Operations Engineers have been learning about various programming languages and leveraging the benefits of third party APIs to help with reducing the amount of repetitive, tedious tasks. This has been with a goal of making our processes more efficient, which has freed up time to allow us to carry out more proactive work and increase our knowledge of new technologies.

@@ -1,8 +1,12 @@
 ---
+title: Supporting Building a Data Lake
+date: 2017-10-03 00:00:00 +01:00
+tags:
+- Data Platform
+- AWS
+- Infrastructure
 layout: post
-title:  "Supporting Building a Data Lake"
 author: Chris McKean
-tags: [Data Platform, AWS, Infrastructure]
 ---
 
 Data is king. Information is power. It's not just about storing lots of it though. There is no point having years of data without the ability to interrogate it and surface the information required in a timely manner. We at Auto Trader recognised the power of data some time ago. As our data set grew there was a realisation that we needed a better structure, we needed quicker queries. 

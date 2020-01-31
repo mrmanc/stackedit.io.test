@@ -1,8 +1,12 @@
 ---
+title: How we halved page load times using Tree Shaking and Ahead Of Time Compilation
+date: 2017-07-24 00:00:00 +01:00
+tags:
+- Performance
+- Front End
+- JavaScript
 layout: post
-title:  "How we halved page load times using Tree Shaking and Ahead Of Time Compilation"
 author: Mike Smith
-tags: [Performance, Front End, JavaScript]
 ---
 
 In March 2017 we released a new homepage for our trade users using a new client side technology framework utilising a Component based Angular 2 structure. Currently, measurements of our users' page load speed tell us that 75% of users see a fully loaded page in under five seconds with 50% loading the page in three seconds, but it hasn't always been this way. Initial measurements using Google Chrome's [Lighthouse](https://github.com/GoogleChrome/lighthouse) performance benchmarking tool saw page load times of ~19 seconds on mobile devices on 3G and 10 seconds on a desktop broadband connection. Using Lighthouse as a benchmark we set out to reduce page load times for mobile devices on 3G to under 10 seconds.

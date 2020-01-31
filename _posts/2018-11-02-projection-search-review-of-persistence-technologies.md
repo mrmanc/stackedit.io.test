@@ -1,8 +1,11 @@
 ---
-layout: post
 title: 'Projection Search: Review of Persistence Technologies'
+date: 2018-11-02 00:00:00 +00:00
+tags:
+- REST
+- Search
+layout: post
 author: Neil McLaughlin
-tags: [REST, Search]
 ---
 
 Having [previously]({{ site.github.url }}{% post_url 2018-09-19-projection-search %}) established what we mean by a projection search, it's time to have a think about how we might build it. Let's start by reviewing the current landscape of Java persistence technologies, comparing and contrasting these, with an eye on suitability for our search. We're not going to cover all of these, but we are going to cover a representative sample. 

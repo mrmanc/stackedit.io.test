@@ -1,9 +1,12 @@
 ---
+title: Postmortem on the application outage on Fri 26th May
+date: 2017-06-16 00:00:00 +01:00
+tags:
+- Postmortem
 layout: post
-title:  "Postmortem on the application outage on Fri 26th May"
 author: Dave Whyte
-tags: [Postmortem]
 ---
+
 On Friday 26th May, we experienced a major service outage for 75 minutes around one of our core products, VDS (Vehicle Data System). The result of this was some applications not being able to return vehicle-specific data.
 
 The outage occurred during a planned network maintenance window, the main cause of the outage was due to the VDS endpoint not being switched to our standby Data center (DC) before the maintenance.

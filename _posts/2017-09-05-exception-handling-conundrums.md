@@ -1,8 +1,11 @@
 ---
+title: Exception Handling Conundrums
+date: 2017-09-05 00:00:00 +01:00
+tags:
+- Java
+- Code Craft
 layout: post
-title:  "Exception Handling Conundrums"
 author: Chloe Hodgson
-tags: [Java, Code Craft]
 ---
 
 Our squad recently came across an unhelpful error message* in response from one of our APIs. After some digging around in the code, we discovered that the message was due to an exception that had not been handled appropriately and instead had bubbled up. This prompted us to sit down as a team and agree on some best practices around how we will deal with exceptions. This post will cover what we agreed on, in particular how to handle crossing knowledge boundaries, using examples from our codebase.

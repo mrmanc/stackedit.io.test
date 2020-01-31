@@ -1,8 +1,11 @@
 ---
+title: Resilience4j - a lightweight, flexible circuit breaker
+date: 2017-09-13 00:00:00 +01:00
+tags:
+- Fault Tolerance
+- Java
 layout: post
-title:  "Resilience4j - a lightweight, flexible circuit breaker"
 author: Philippa Main
-tags: [Fault Tolerance, Java]
 ---
 
 We knew that our application would break if the database was down. 
